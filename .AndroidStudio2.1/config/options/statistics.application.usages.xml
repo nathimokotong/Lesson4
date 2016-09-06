@@ -1,0 +1,120 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="run-configuration-type">
+      <project id="Testing" values="AndroidRunConfigurationType" collectionTime="1473154342091" />
+      <project id="RetryCode" values="AndroidRunConfigurationType" collectionTime="1472727215726" />
+      <project id="Again Code" values="AndroidRunConfigurationType" collectionTime="1472737256348" />
+      <project id="Just Java" values="AndroidRunConfigurationType" collectionTime="1473154276644" />
+      <project id="Happy Bithday" values="AndroidRunConfigurationType" collectionTime="1472199208157" />
+      <project id="Fragment" values="AndroidRunConfigurationType" collectionTime="1472819882358" />
+      <project id="Happy Birthday" values="AndroidRunConfigurationType" collectionTime="1473154891448" />
+      <project id="Just Java Recap" values="AndroidRunConfigurationType" collectionTime="1472724366598" />
+      <project id="Fragments again" values="AndroidRunConfigurationType" collectionTime="1473066116993" />
+      <project id="NoteBook2" values="AndroidRunConfigurationType" collectionTime="1473063592953" />
+      <project id="Just Coding" values="AndroidRunConfigurationType" collectionTime="1473154338557" />
+      <project id="NoteBook" values="AndroidRunConfigurationType" collectionTime="1473063061705" />
+      <project id="another_try" values="AndroidRunConfigurationType" collectionTime="1472626826671" />
+      <project id="SecondTry" values="AndroidRunConfigurationType" collectionTime="1472724422143" />
+      <project id="Fragment agian" values="AndroidRunConfigurationType" collectionTime="1473154892795" />
+    </group>
+    <group name="module type">
+      <project id="Testing" values="JAVA_MODULE" collectionTime="1473154342091" />
+      <project id="RetryCode" values="JAVA_MODULE" collectionTime="1472727215726" />
+      <project id="Again Code" values="JAVA_MODULE" collectionTime="1472737256347" />
+      <project id="Just Java" values="JAVA_MODULE" collectionTime="1473154276643" />
+      <project id="Happy Bithday" values="JAVA_MODULE" collectionTime="1472199208157" />
+      <project id="Fragment" values="JAVA_MODULE" collectionTime="1472819882358" />
+      <project id="Happy Birthday" values="JAVA_MODULE" collectionTime="1473154891448" />
+      <project id="Just Java Recap" values="JAVA_MODULE" collectionTime="1472724366598" />
+      <project id="Fragments again" values="JAVA_MODULE" collectionTime="1473066116993" />
+      <project id="NoteBook2" values="JAVA_MODULE" collectionTime="1473063592953" />
+      <project id="Just Coding" values="JAVA_MODULE" collectionTime="1473154338557" />
+      <project id="NoteBook" values="JAVA_MODULE" collectionTime="1473063061705" />
+      <project id="another_try" values="JAVA_MODULE" collectionTime="1472626826671" />
+      <project id="SecondTry" values="JAVA_MODULE" collectionTime="1472724422143" />
+      <project id="Fragment agian" values="JAVA_MODULE" collectionTime="1473154892795" />
+    </group>
+    <group name="file-type">
+      <project id="Testing" values="ARCHIVE,XML,JAVA,UNKNOWN,Images,ProGuard File,PLAIN_TEXT,Groovy,AIDL,Properties,IDEA_MODULE" collectionTime="1473154342120" />
+      <project id="RetryCode" values="AIDL,Properties,Groovy,PLAIN_TEXT,UNKNOWN,XML,ARCHIVE,ProGuard File,IDEA_MODULE,Images,JAVA" collectionTime="1472727215774" />
+      <project id="Again Code" values="Images,PLAIN_TEXT,JAVA,Properties,Groovy,XML,IDEA_MODULE,ProGuard File,ARCHIVE,AIDL,UNKNOWN" collectionTime="1472737256396" />
+      <project id="Just Java" values="XML,JAVA,AIDL,PLAIN_TEXT,Images,Properties,UNKNOWN,ProGuard File,IDEA_MODULE,ARCHIVE,Groovy" collectionTime="1473154276761" />
+      <project id="Happy Bithday" values="Groovy,ProGuard File,PLAIN_TEXT,Properties,ARCHIVE,IDEA_MODULE,JAVA,XML,UNKNOWN,Images" collectionTime="1472199208242" />
+      <project id="Fragment" values="ProGuard File,XML,Properties,Groovy,Images,IDEA_MODULE,JAVA,UNKNOWN,PLAIN_TEXT,AIDL,ARCHIVE" collectionTime="1472819882421" />
+      <project id="Happy Birthday" values="UNKNOWN,JAVA,Properties,ARCHIVE,XML,Groovy,IDEA_MODULE,PLAIN_TEXT,Images,AIDL,ProGuard File" collectionTime="1473154891479" />
+      <project id="Just Java Recap" values="PLAIN_TEXT,Groovy,XML,Properties,JAVA,Images,UNKNOWN,AIDL,ARCHIVE,IDEA_MODULE,ProGuard File" collectionTime="1472724366644" />
+      <project id="Fragments again" values="Groovy,IDEA_MODULE,PLAIN_TEXT,AIDL,ProGuard File,XML,UNKNOWN,Properties,ARCHIVE,Images,JAVA" collectionTime="1473066117025" />
+      <project id="NoteBook2" values="XML,AIDL,PLAIN_TEXT,ARCHIVE,IDEA_MODULE,ProGuard File,Properties,Images,JAVA,Groovy,UNKNOWN" collectionTime="1473063592985" />
+      <project id="Just Coding" values="PLAIN_TEXT,Properties,IDEA_MODULE,ProGuard File,JAVA,UNKNOWN,Groovy,XML,AIDL,ARCHIVE,Images" collectionTime="1473154338591" />
+      <project id="NoteBook" values="XML,Groovy,IDEA_MODULE,ProGuard File,PLAIN_TEXT,Images,ARCHIVE,Properties,JAVA,AIDL,UNKNOWN" collectionTime="1473063061783" />
+      <project id="another_try" values="Groovy,AIDL,ARCHIVE,IDEA_MODULE,PLAIN_TEXT,UNKNOWN,JAVA,XML,Properties,ProGuard File,Images" collectionTime="1472626826700" />
+      <project id="SecondTry" values="XML,ProGuard File,AIDL,Properties,UNKNOWN,IDEA_MODULE,Groovy,Images,PLAIN_TEXT,JAVA,ARCHIVE" collectionTime="1472724422159" />
+      <project id="Fragment agian" values="ARCHIVE,UNKNOWN,XML,Properties,JAVA,PLAIN_TEXT,IDEA_MODULE,ProGuard File,Groovy,Images,AIDL" collectionTime="1473154892823" />
+    </group>
+    <group name="Git">
+      <project id="Testing" values="config.ssh.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled" collectionTime="1473154342121" />
+      <project id="RetryCode" values="config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.force.push.enabled" collectionTime="1472727215804" />
+      <project id="Again Code" values="config.ssh.enabled,config.warn.about.detached.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled" collectionTime="1472737256407" />
+      <project id="Just Java" values="config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.force.push.enabled,config.ssh.enabled,config.push.update.all.roots.enabled" collectionTime="1473154276772" />
+      <project id="Happy Bithday" values="config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled" collectionTime="1472199208242" />
+      <project id="Fragment" values="config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.ssh.enabled,config.force.push.enabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1472819882452" />
+      <project id="Happy Birthday" values="config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1473154891480" />
+      <project id="Just Java Recap" values="config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.warn.about.detached.enabled,config.save.policy.STASH" collectionTime="1472724366644" />
+      <project id="Fragments again" values="config.save.policy.STASH,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.force.push.enabled" collectionTime="1473066117025" />
+      <project id="NoteBook2" values="config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.force.push.enabled,config.warn.about.detached.enabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1473063592985" />
+      <project id="Just Coding" values="config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.save.policy.STASH" collectionTime="1473154338591" />
+      <project id="NoteBook" values="config.push.autoupdate.disabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.save.policy.STASH" collectionTime="1473063061814" />
+      <project id="another_try" values="config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.force.push.enabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled" collectionTime="1472626826701" />
+      <project id="SecondTry" values="config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.force.push.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT" collectionTime="1472724422159" />
+      <project id="Fragment agian" values="config.push.update.all.roots.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled" collectionTime="1473154892823" />
+    </group>
+    <group name="frameworks">
+      <project id="Testing" values="android-gradle,java-gradle,android" collectionTime="1473154342091" />
+      <project id="RetryCode" values="android,java-gradle,android-gradle" collectionTime="1472727215725" />
+      <project id="Again Code" values="java-gradle,android-gradle,android" collectionTime="1472737256347" />
+      <project id="Just Java" values="android,android-gradle,java-gradle" collectionTime="1473154276643" />
+      <project id="Happy Bithday" values="android-gradle,android,java-gradle" collectionTime="1472199208157" />
+      <project id="Fragment" values="android,java-gradle,android-gradle" collectionTime="1472819882358" />
+      <project id="Happy Birthday" values="android,java-gradle,android-gradle" collectionTime="1473154891448" />
+      <project id="Just Java Recap" values="android,android-gradle,java-gradle" collectionTime="1472724366598" />
+      <project id="Fragments again" values="android,java-gradle,android-gradle" collectionTime="1473066116993" />
+      <project id="NoteBook2" values="android,android-gradle,java-gradle" collectionTime="1473063592953" />
+      <project id="Just Coding" values="android-gradle,android,java-gradle" collectionTime="1473154338557" />
+      <project id="NoteBook" values="android,android-gradle,java-gradle" collectionTime="1473063061705" />
+      <project id="another_try" values="android-gradle,java-gradle,android" collectionTime="1472626826671" />
+      <project id="SecondTry" values="java-gradle,android,android-gradle" collectionTime="1472724422143" />
+      <project id="Fragment agian" values="java-gradle,android,android-gradle" collectionTime="1473154892795" />
+    </group>
+    <group name="language-level">
+      <project id="Testing" values="JDK_1_7,JDK_1_8" collectionTime="1473154342121" />
+      <project id="RetryCode" values="JDK_1_8,JDK_1_7" collectionTime="1472727215797" />
+      <project id="Again Code" values="JDK_1_7" collectionTime="1472737256406" />
+      <project id="Just Java" values="JDK_1_8,JDK_1_7" collectionTime="1473154276771" />
+      <project id="Happy Bithday" values="JDK_1_8,JDK_1_7" collectionTime="1472199208242" />
+      <project id="Fragment" values="JDK_1_7" collectionTime="1472819882452" />
+      <project id="Happy Birthday" values="JDK_1_7,JDK_1_8" collectionTime="1473154891480" />
+      <project id="Just Java Recap" values="JDK_1_7,JDK_1_8" collectionTime="1472724366644" />
+      <project id="Fragments again" values="JDK_1_7" collectionTime="1473066117025" />
+      <project id="NoteBook2" values="JDK_1_7" collectionTime="1473063592985" />
+      <project id="Just Coding" values="JDK_1_7,JDK_1_8" collectionTime="1473154338591" />
+      <project id="NoteBook" values="JDK_1_7" collectionTime="1473063061798" />
+      <project id="another_try" values="JDK_1_7,JDK_1_8" collectionTime="1472626826701" />
+      <project id="SecondTry" values="JDK_1_7,JDK_1_8" collectionTime="1472724422159" />
+      <project id="Fragment agian" values="JDK_1_8,JDK_1_7" collectionTime="1473154892823" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="execute.AndroidRunConfigurationType.Debug" count="4" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="118" />
+      <entry feature="ide.settings.Appearance" count="3" />
+      <entry feature="ide.settings.File_Types" count="1" />
+      <entry feature="ide.settings.Project_Structure" count="2" />
+      <entry feature="ideaapp.started" count="13" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="6" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.RunAndroidSdkManager" count="1" />
+      <entry feature="welcome.screen.null" count="5" />
+    </counts>
+  </component>
+</application>

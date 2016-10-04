@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    >
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.courtcounter.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Team A"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@android:dimen/app_icon_size"
+        android:text="0"
+        android:textStyle="bold"
+
+        android:gravity="center_horizontal"
+        android:id="@+id/txtScore"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+     />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+3 POINTS"
+        android:id="@+id/btnThree"
+        android:onClick="add_three_point"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="58dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+2 POINTS"
+        android:id="@+id/btnTwo"
+        android:onClick="add_two_point"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FREE THROW"
+        android:layout_margin="5dp"
+        android:id="@+id/btnThrow"
+        android:onClick="add_one_point"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="56dp" />
+
+</LinearLayout>
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="16dp"
+        />
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        tools:context="MainActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team B"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_margin="15dp"
+
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@android:dimen/app_icon_size"
+        android:text="0"
+        android:textStyle="bold"
+
+        android:gravity="center_horizontal"
+        android:id="@+id/txtScoreB"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+3 POINTS"
+        android:id="@+id/btnThreeB"
+        android:onClick="add_three_pointB"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="58dp"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+2 POINTS"
+        android:id="@+id/btnTwoB"
+        android:onClick="add_two_pointB"
+        android:layout_margin="5dp"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FREE THROW"
+        android:layout_margin="5dp"
+        android:id="@+id/btnThrowB"
+        android:onClick="add_one_pointB"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_margin="5dp"
+        android:id="@+id/btnReset"
+        android:onClick="resetAll"
+        android:background="#EF0012"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+         />
+
+
+</RelativeLayout>

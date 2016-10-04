@@ -9,7 +9,7 @@
     <feature id="codeassists.overrideimplement" count="8" last-shown="0" last-used="1475139756240" shown-count="0" />
     <feature id="codeassists.parameterInfo" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="1475582302412" last-used="0" shown-count="221" />
-    <feature id="editing.completion.basic" count="3184" last-shown="0" last-used="1475582437261" shown-count="0" />
+    <feature id="editing.completion.basic" count="3185" last-shown="0" last-used="1475585011517" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.convertToLiteral" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.extractMethod" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -29,8 +29,8 @@
     <feature id="refactoring.appCodeIntroduceVariable" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.convertToMethod" count="0" last-shown="0" last-used="0" shown-count="0" />
     <completionStatsTag>
-      <option name="sparedCharacters" value="24882" />
-      <option name="invocations" value="2407" />
+      <option name="sparedCharacters" value="24897" />
+      <option name="invocations" value="2408" />
       <option name="startDate" value="1472076000000" />
       <option name="dayCount" value="22" />
       <option name="lastDate" value="1475532000000" />

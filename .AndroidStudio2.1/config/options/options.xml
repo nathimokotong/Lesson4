@@ -6,17 +6,19 @@
     <property name="AndroidInitConfigurator.V3" value="true" />
     <property name="AndroidInitConfigurator.V1" value="true" />
     <property name="AndroidInitConfigurator.V2" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/AppData/Local/Android/sdk1" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop&#10;C:/Users/Codetribe/AppData/Local/Android/sdk1" />
     <property name="MobileminApi" value="15" />
-    <property name="lastTip" value="11" />
+    <property name="lastTip" value="27" />
     <property name="com.google.gct.enable.cloud.testing" value="true" />
     <property name="SAVED_COMPANY_DOMAIN" value="android.example.com" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="AndroidEnableDdms" value="true" />
     <property name="Copy.OpenInEditor" value="true" />
-    <property name="fileTypeChangedCounter" value="2" />
+    <property name="fileTypeChangedCounter" value="3" />
     <property name="decompiler.legal.notice.accepted" value="true" />
-    <property name="android-component-compatibility-check" value="1472733249989" />
+    <property name="android-component-compatibility-check" value="1474966761476" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
 </application>

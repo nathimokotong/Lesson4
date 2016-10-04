@@ -127,7 +127,7 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
        A2 = (TextView) findViewById(R.id.Q2corret);
        A3 = (TextView) findViewById(R.id.Q3corret);
        A4 = (TextView) findViewById(R.id.Q4corret);
-       A5 = (TextView) findViewById(R.id.Q5corret);
+
 
        G1 = (RadioGroup) findViewById(R.id.group1);
        G2 = (RadioGroup) findViewById(R.id.group2);
@@ -364,6 +364,10 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
         record = 0;
 
+        G1.setVisibility(View.INVISIBLE);
+        G2.setVisibility(View.INVISIBLE);
+        G3.setVisibility(View.INVISIBLE);
+        G4.setVisibility(View.INVISIBLE);
 
 
     }
@@ -457,6 +461,22 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
 
     }
+
+    public void show(View view)
+    {
+
+        G1.setVisibility(View.VISIBLE);
+        G2.setVisibility(View.VISIBLE);
+        G3.setVisibility(View.VISIBLE);
+        G4.setVisibility(View.VISIBLE);
+        A1.setText("");
+        A2.setText("");
+        A3.setText("");
+        A4.setText("");
+        score.setText("");
+
+    }
+
 
 
 

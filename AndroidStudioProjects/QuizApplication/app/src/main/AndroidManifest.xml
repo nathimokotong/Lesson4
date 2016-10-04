@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".Soccer" />
         <activity android:name=".Evolution" />
-        <activity android:name=".Movie"></activity>
+        <activity android:name=".Movie" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

@@ -23,10 +23,11 @@
     <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1920.1080" x="740" y="395" />
     <location key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" x="1138" y="209" />
     <location key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog.0.0.1920.1080" x="684" y="280" />
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1878" height="289" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1878" height="289" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1878" height="289" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1878" height="289" />
+    <location key="AndroidProcessChooserDialog.0.0.1920.1080" x="815" y="307" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1878" height="243" />
     <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1878" height="243" />
     <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1878" height="243" />

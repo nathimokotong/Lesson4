@@ -327,6 +327,11 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
 
         record = 0;
 
+        G1.setVisibility(View.INVISIBLE);
+        G2.setVisibility(View.INVISIBLE);
+        G3.setVisibility(View.INVISIBLE);
+        G4.setVisibility(View.INVISIBLE);
+
     }
 
 
@@ -396,6 +401,21 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
         cc.setText(indexanswer4[2]);
         dd.setText(indexanswer4[3]);
 
+
+    }
+
+    public void show(View view)
+    {
+
+        G1.setVisibility(View.VISIBLE);
+        G2.setVisibility(View.VISIBLE);
+        G3.setVisibility(View.VISIBLE);
+        G4.setVisibility(View.VISIBLE);
+        A1.setText("");
+        A2.setText("");
+        A3.setText("");
+        A4.setText("");
+        score.setText("");
 
     }
 

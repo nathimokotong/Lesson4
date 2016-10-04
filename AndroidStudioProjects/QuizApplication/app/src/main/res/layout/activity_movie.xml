@@ -26,6 +26,15 @@ tools:context="com.example.android.quizapplication.Soccer">
         android:textStyle="bold"
         android:textColor="#000"
         />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q1corret"
+            android:text=""
+
+            />
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,13 +67,7 @@ tools:context="com.example.android.quizapplication.Soccer">
 
     </RadioGroup>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Q1corret"
-        android:text=""
 
-        />
 
 
     <TextView
@@ -75,6 +78,14 @@ tools:context="com.example.android.quizapplication.Soccer">
         android:text="qwerr"
         android:textColor="#000"
         />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q2corret"
+            android:text=""
+
+            />
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -112,13 +123,7 @@ tools:context="com.example.android.quizapplication.Soccer">
 
     </RadioGroup>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Q2corret"
-        android:text=""
 
-        />
 
 
 
@@ -130,6 +135,14 @@ tools:context="com.example.android.quizapplication.Soccer">
         android:textStyle="bold"
         android:textColor="#000"
         />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q3corret"
+            android:text=""
+
+            />
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -167,13 +180,7 @@ tools:context="com.example.android.quizapplication.Soccer">
 
     </RadioGroup>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Q3corret"
-        android:text=""
 
-        />
 
 
     <TextView
@@ -184,6 +191,15 @@ tools:context="com.example.android.quizapplication.Soccer">
         android:textStyle="bold"
         android:textColor="#000"
         />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q4corret"
+            android:text=""
+
+            />
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -220,23 +236,11 @@ tools:context="com.example.android.quizapplication.Soccer">
 
     </RadioGroup>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Q4corret"
-        android:text=""
-
-        />
 
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Q5corret"
-        android:text=""
 
-        />
+
 
     <TextView
         android:layout_width="100dp"
@@ -255,7 +259,7 @@ tools:context="com.example.android.quizapplication.Soccer">
         android:layout_gravity="bottom|center"
         android:id="@+id/btnSub"
         android:onClick="Submit"
-        android:background="@drawable/ic_assignment_turned_in_black_24dp"
+        android:background="@drawable/ic_check_circle_black_24dp"
 
 
         />
@@ -264,8 +268,9 @@ tools:context="com.example.android.quizapplication.Soccer">
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/btnBck"
+        android:onClick="show"
         android:layout_gravity="center|bottom"
-        android:background="@drawable/ic_assignment_return_black_24dp"
+        android:background="@drawable/ic_cached_black_24dp"
         />
 
 

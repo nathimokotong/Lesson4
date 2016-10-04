@@ -26,8 +26,18 @@ tools:context="com.example.android.quizapplication.Evolution">
         android:layout_height="wrap_content"
         android:id="@+id/Q1ev"
         android:text="qwerr"
+        android:textStyle="bold"
         android:textColor="#0e0e0e"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Q1corretev"
+        android:text=""
+
+        />
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,13 +70,7 @@ tools:context="com.example.android.quizapplication.Evolution">
 
     </RadioGroup>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Q1corretev"
-        android:text=""
 
-        />
 
 
     <TextView
@@ -74,7 +78,16 @@ tools:context="com.example.android.quizapplication.Evolution">
         android:layout_height="wrap_content"
         android:id="@+id/Q2ev"
         android:text="qwerr"
+        android:textStyle="bold"
         android:textColor="#0b0b0b"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Q2corretev"
+        android:text=""
+
         />
 
     <RadioGroup
@@ -113,13 +126,7 @@ tools:context="com.example.android.quizapplication.Evolution">
 
     </RadioGroup>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Q2corretev"
-        android:text=""
 
-        />
 
 
 
@@ -127,8 +134,17 @@ tools:context="com.example.android.quizapplication.Evolution">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Q3ev"
+        android:textStyle="bold"
         android:text="qwerr"
         android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Q3corretev"
+        android:text=""
+
         />
 
     <RadioGroup
@@ -167,21 +183,24 @@ tools:context="com.example.android.quizapplication.Evolution">
 
     </RadioGroup>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Q3corretev"
-        android:text=""
 
-        />
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Q4ev"
+        android:textStyle="bold"
         android:text="qwerr"
         android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Q4corretev"
+        android:text=""
+
         />
     <RadioGroup
         android:layout_width="match_parent"
@@ -219,13 +238,7 @@ tools:context="com.example.android.quizapplication.Evolution">
 
     </RadioGroup>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Q4corretev"
-        android:text=""
 
-        />
 
     <TextView
         android:layout_width="100dp"
@@ -239,14 +252,12 @@ tools:context="com.example.android.quizapplication.Evolution">
         />
 
     <Button
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
-
-        android:textStyle="bold"
         android:id="@+id/btnSubev"
         android:onClick="Submit"
-        android:background="@drawable/ic_assignment_turned_in_black_24dp"
+        android:background="@drawable/ic_check_circle_black_24dp"
         android:textColor="#151414"
 
         />
@@ -255,8 +266,9 @@ tools:context="com.example.android.quizapplication.Evolution">
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/btnBck"
+        android:onClick="show"
         android:layout_gravity="center|bottom"
-        android:background="@drawable/ic_assignment_return_black_24dp"
+        android:background="@drawable/ic_cached_black_24dp"
         />
 
 

@@ -101,13 +101,11 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
        answer3 = false;
        answer4 = false;
 
-        String[] values = new String[] {"Who is the only player to have won silverware at both Manchester United and Liverpool?"
-                ,"Who is the only player to have scored in a Champions League final, FA Cup final, UEFA Cup final and League Cup final?"
-                ,"Who is the only player to have scored a hat-trick in all four tiers of professional football in England, FA Cup, League Cup and at international level?"
-                , "Who is the only player to have scored in the Glasgow, Merseyside and Manchester derbies?"
-                ,"Who beat AS Monaco in the 2004 UEFA Champions League Final?"};
-
-
+       String[] values = new String[]{"Who is the only player to have won silverware at both Manchester United and Liverpool?"
+               , "Who is the only player to have scored in a Champions League final, FA Cup final, UEFA Cup final and League Cup final?"
+               , "Who is the only player to have scored a hat-trick in all four tiers of professional football in England, FA Cup, League Cup and at international level?"
+               , "Who is the only player to have scored in the Glasgow, Merseyside and Manchester derbies?"
+               , "Who beat AS Monaco in the 2004 UEFA Champions League Final?"};
 
        //text view questions
        tx1 = (TextView) findViewById(R.id.Q1) ;
@@ -134,8 +132,6 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
        G3 = (RadioGroup) findViewById(R.id.group3);
        G4 = (RadioGroup) findViewById(R.id.group4);
 
-
-
        //Radio buttons
        RB1 = (RadioButton) findViewById(R.id.Rb1Q1);
        RB2 = (RadioButton) findViewById(R.id.Rb2Q1);
@@ -157,27 +153,17 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
        RB30 = (RadioButton) findViewById(R.id.Rb3Q4);
        RB40 = (RadioButton) findViewById(R.id.Rb4Q4);
 
-
        //shuffing radio buttons
        SetRedioGroup1(RB1,RB2,RB3,RB4);
        SetRedioGroup2(RB11,RB22,RB33,RB44);
        SetRedioGroup3(RB111,RB222,RB333,RB444);
        SetRedioGroup4(RB10,RB20,RB30,RB40);
 
-
-
        //RadioGroup onchange listener
        G1.setOnCheckedChangeListener(this);
        G2.setOnCheckedChangeListener(this);
        G3.setOnCheckedChangeListener(this);
        G4.setOnCheckedChangeListener(this);
-
-
-
-
-
-
-
 
    }
 
@@ -286,7 +272,6 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
             }
         }
 
-
     }
 
 
@@ -369,7 +354,6 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
         G3.setVisibility(View.INVISIBLE);
         G4.setVisibility(View.INVISIBLE);
 
-
     }
 
 
@@ -378,12 +362,7 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
     public void SetRedioGroup1(RadioButton a,RadioButton b,RadioButton c,RadioButton d)
     {
 
-
-
-
-
         String[] indexanswer1 = new String[]{"Adam Johnson","Andy Cole","David Becham","Michael Owen"};
-
 
         Collections.shuffle(Arrays.asList(indexanswer1));
 
@@ -392,20 +371,13 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
         c.setText(indexanswer1[2]);
         d.setText(indexanswer1[3]);
 
-
-
     }
 
 
     public void SetRedioGroup2(RadioButton a,RadioButton b,RadioButton c,RadioButton d)
     {
 
-
-
-
-
         String[] indexanswer2 = new String[]{"Steven Gerrard","Robinho","Sergio Agüero","Wayne Rooney"};
-
 
         Collections.shuffle(Arrays.asList(indexanswer2));
 
@@ -414,17 +386,11 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
         c.setText(indexanswer2[2]);
         d.setText(indexanswer2[3]);
 
-
-
     }
 
 
     public void SetRedioGroup3(RadioButton aaa,RadioButton bbb,RadioButton ccc,RadioButton ddd)
     {
-
-
-
-        //
 
         String[] indexanswer3 = new String[]{"Robert Earnshaw","Christiano Ronaldo","Eden Hazard","Yaya Toure"};
 
@@ -436,20 +402,13 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
         ccc.setText(indexanswer3[2]);
         ddd.setText(indexanswer3[3]);
 
-
-
     }
 
 
     public void SetRedioGroup4(RadioButton aa,RadioButton bb,RadioButton cc,RadioButton dd)
     {
 
-
-
-//"Fc Barcelona","Manchester Utd","AC Milan","Fc Porto"
-//"Brazil","South Africa","Brazil","Hungary"
         String[] indexanswer4 = new String[]{"Andrei Kanchelskis","Pep Guardiola","Jomo Sono","David Silva"};
-
 
         Collections.shuffle(Arrays.asList(indexanswer4));
 
@@ -457,8 +416,6 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
         bb.setText(indexanswer4[1]);
         cc.setText(indexanswer4[2]);
         dd.setText(indexanswer4[3]);
-
-
 
     }
 
@@ -476,8 +433,5 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
         score.setText("");
 
     }
-
-
-
 
 }

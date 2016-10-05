@@ -13,8 +13,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    public int i = 0;
     ImageView img;
-    public  int i = 0;
     TextView txtV;
 
     @Override
@@ -23,37 +23,29 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
-
-
-
     }
 
-public void change(View v)
-{
+    public void change(View v) {
 
-    Intent intent = new Intent(MainActivity.this,Soccer.class);
-
-    startActivity(intent);
-
-}
-
-
-    public void changeEv(View v)
-    {
-
-        Intent intent = new Intent(MainActivity.this,Evolution.class);
+        Intent intent = new Intent(MainActivity.this, Soccer.class);
 
         startActivity(intent);
 
     }
 
 
+    public void changeEv(View v) {
 
-    public void changeMov(View v)
-    {
+        Intent intent = new Intent(MainActivity.this, Evolution.class);
 
-        Intent intent = new Intent(MainActivity.this,Movie.class);
+        startActivity(intent);
+
+    }
+
+
+    public void changeMov(View v) {
+
+        Intent intent = new Intent(MainActivity.this, Movie.class);
 
         startActivity(intent);
 

@@ -7,7 +7,7 @@
     <property name="AndroidInitConfigurator.V1" value="true" />
     <property name="AndroidInitConfigurator.V2" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Desktop&#10;C:/Users/Codetribe/AppData/Local/Android/sdk1" />
-    <property name="MobileminApi" value="15" />
+    <property name="MobileminApi" value="19" />
     <property name="lastTip" value="28" />
     <property name="com.google.gct.enable.cloud.testing" value="true" />
     <property name="SAVED_COMPANY_DOMAIN" value="android.example.com" />

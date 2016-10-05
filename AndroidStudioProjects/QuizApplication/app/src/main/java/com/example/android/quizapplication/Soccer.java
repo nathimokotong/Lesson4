@@ -295,51 +295,51 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
         if(ansa1 == "Michael Owen")
         {
-            A1.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A1.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
         else
         {
-            A1.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A1.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
 
         if (ansa2 == "Steven Gerrard")
         {
-            A2.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A2.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
         else
         {
-            A2.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A2.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
 
         if (ansa3 == "Robert Earnshaw")
         {
-            A3.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A3.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
 
         else
         {
-            A3.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A3.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
 
 
         if (ansa4 == "Andrei Kanchelskis")
         {
-            A4.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A4.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
         else
         {
-            A4.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A4.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
         A1.setText(ansa1);

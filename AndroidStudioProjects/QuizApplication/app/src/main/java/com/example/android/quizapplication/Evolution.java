@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.view.MenuItem;
+import android.app.ActionBar;
+
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -77,6 +80,7 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
     RadioButton RB40;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,6 +88,7 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
 
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
 
         record = 0;
@@ -262,49 +267,49 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
 
         if("Mating occurs preferentially".equals(ansa1))
         {
-            A1.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A1.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
         else
         {
-            A1.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A1.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
 
         if ("70%".equals(ansa2))
         {
-            A2.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A2.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
         else
         {
-            A2.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A2.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
 
         if ("migration".equals(ansa3))
         {
-            A3.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A3.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
 
         else
         {
-            A3.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A3.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
         if ("Individuals must be able to move between populations.".equals(ansa4))
         {
-            A4.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A4.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
         else
         {
-            A4.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A4.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
         A1.setText(ansa1);
@@ -418,5 +423,8 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
         score.setText("");
 
     }
+
+
+
 
 }

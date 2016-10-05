@@ -294,51 +294,51 @@ public class Movie extends AppCompatActivity implements RadioGroup.OnCheckedChan
 
         if(ansa1 == "Justin Timberlake")
         {
-            A1.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A1.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
         else
         {
-            A1.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A1.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
 
         if (ansa2 == "Adele")
         {
-            A2.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A2.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
         else
         {
-            A2.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A2.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
 
         if (ansa3 == "Rihanna")
         {
-            A3.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A3.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
 
         else
         {
-            A3.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A3.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
 
 
         if (ansa4 == "Beyonce")
         {
-            A4.setTextColor(getResources().getColor(android.R.color.holo_green_dark));
+            A4.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
         }
         else
         {
-            A4.setTextColor(getResources().getColor(android.R.color.holo_red_dark));
+            A4.setTextColor(getResources().getColor(android.R.color.holo_red_dark,null));
         }
 
         A1.setText(ansa1);
@@ -371,13 +371,9 @@ public class Movie extends AppCompatActivity implements RadioGroup.OnCheckedChan
     }
 
 
-
     //SHUFFLE_______________________________SHUFFLE_______________________________SHUFFLE_____________
     public void SetRedioGroup1(RadioButton a,RadioButton b,RadioButton c,RadioButton d)
     {
-
-
-
 
 
         String[] indexanswer1 = new String[]{"Adele" ,
@@ -402,9 +398,6 @@ public class Movie extends AppCompatActivity implements RadioGroup.OnCheckedChan
     {
 
 
-
-
-
         String[] indexanswer2 = new String[]{"Adele" ,
                 "Super Furry ",
                 "Justin Timberlake" ,
@@ -418,17 +411,12 @@ public class Movie extends AppCompatActivity implements RadioGroup.OnCheckedChan
         c.setText(indexanswer2[2]);
         d.setText(indexanswer2[3]);
 
-
-
     }
 
 
     public void SetRedioGroup3(RadioButton aaa,RadioButton bbb,RadioButton ccc,RadioButton ddd)
     {
 
-
-
-        //
 
         String[] indexanswer3 = new String[]{"Rihanna","Meatloaf" , "Matt Cardle" , "Katy Perry"};
 
@@ -439,8 +427,6 @@ public class Movie extends AppCompatActivity implements RadioGroup.OnCheckedChan
         bbb.setText(indexanswer3[1]);
         ccc.setText(indexanswer3[2]);
         ddd.setText(indexanswer3[3]);
-
-
 
     }
 

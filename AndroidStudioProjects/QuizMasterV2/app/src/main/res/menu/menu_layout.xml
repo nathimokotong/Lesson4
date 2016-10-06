@@ -4,7 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <item
-        android:id=""
+        android:id="@+id/scoresid"
+        android:title="Scores"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/corrections"
+        android:title="Corrections"
+        app:showAsAction="never"
         />
 
 </menu>

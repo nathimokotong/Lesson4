@@ -10,10 +10,13 @@ import android.view.MenuItem;
 import android.app.ActionBar;
 
 
+
 import java.util.Arrays;
 import java.util.Collections;
 
 public class Evolution extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
+
+    public String Evoscore;
 
     //score record
     int record;
@@ -425,6 +428,10 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
     }
 
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
 
 
+    }
 }

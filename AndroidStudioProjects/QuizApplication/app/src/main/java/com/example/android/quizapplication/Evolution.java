@@ -1,5 +1,6 @@
 package com.example.android.quizapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,7 +9,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.view.MenuItem;
 import android.app.ActionBar;
-
+import android.widget.Toast;
 
 
 import java.util.Arrays;
@@ -20,7 +21,12 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
 
     //score record
     int record;
+    int totalscorecount;
+    String totalscoreput;
+    String key;
+
     TextView score;
+
 
     //text view questions
     TextView tx1;
@@ -285,6 +291,7 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
             A2.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
+            totalscorecount = record + 1;
         }
         else
         {
@@ -297,6 +304,7 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
             A3.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
+            totalscorecount = record + 1;
         }
 
         else
@@ -309,6 +317,7 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
             A4.setTextColor(getResources().getColor(android.R.color.holo_green_dark,null));
 
             record = record + 1;
+            totalscorecount = record + 1;
         }
         else
         {
@@ -432,6 +441,13 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
     public void onBackPressed() {
         super.onBackPressed();
 
+        totalscoreput = Integer.toString(totalscorecount);
+
+        Intent intent = new Intent(Evolution.this,MainActivity.class);
+
+        intent.putExtra(key,totalscoreput);
+
+        startActivity(intent);
 
     }
 }

@@ -84,13 +84,9 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
             populate(line);
             dialog(adapterView,pos,options);
 
-
-
             }
 
         });
-
-
 
     }
 
@@ -134,10 +130,13 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
                 @Override
                 public void onCheckedChanged(RadioGroup radioGroup, int i)
                 {
-                    int pos = radioGroup.getCheckedRadioButtonId();
-                     points = point(line,pos);
 
-                    radioGroup.setOnCheckedChangeListener(this);
+                    String txt = "";
+                    RadioButton rd = (RadioButton)radioGroup.findViewById(i);
+                    txt = rd.getText().toString();
+                     points = point(line,txt);
+
+                   // radioGroup.setOnCheckedChangeListener(this);
 
                       Toast.makeText(Sports.this,"Point(s) "+ points,Toast.LENGTH_SHORT).show();
                 }
@@ -150,11 +149,10 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
         donebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int radio = radioGroup.getCheckedRadioButtonId();
-                radioGroup.clearCheck();
-                builder.dismiss();
 
-               Toast.makeText(Sports.this,"Point(s) "+ radio,Toast.LENGTH_LONG).show();
+              builder.dismiss();
+
+             // Toast.makeText(Sports.this,"Point(s) "+ radio,Toast.LENGTH_LONG).show();
             }
         });
 
@@ -182,6 +180,7 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
         {
 
             options = new String[]{"Lacrosse/Ice hockey","Cricket" ,"Field hockey","Volleyball"};
+            Collections.shuffle(Arrays.asList(options));
 
         }
 
@@ -189,90 +188,82 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
         {
 
             options = new String[]{"Afghanistan" ,"Bhutan" ,"Japan" ,"India"};
-
+            Collections.shuffle(Arrays.asList(options));
         }
 
         if("______ has Cricket as its national sports.".equals(sentances))
         {
 
             options = new String[]{"India","Jamaica" ,"Sri Lanka","United States"};
-
+            Collections.shuffle(Arrays.asList(options));
         }
 
         if("_______ is the national sport of Turkey".equals(sentances))
         {
 
             options = new String[]{"Wrestling" ,"Rugby union" ,"Golf" ,"Basketball"};
-
+            Collections.shuffle(Arrays.asList(options));
         }
 
         if("When was the Commonwealth game started?".equals(sentances))
         {
 
             options = new String[]{"1930" ,"1934" ,"1938" ,"1950"};
-
+            Collections.shuffle(Arrays.asList(options));
         }
 
         if("Which was the host country in 1998 for Asian Games?".equals(sentances))
         {
 
             options = new String[]{"Thailand" ,"Philippines" ,"South Korea" ,"China"};
-
+            Collections.shuffle(Arrays.asList(options));
         }
 
         if("Who is the only player to have won silverware at both Manchester United and Liverpool?".equals(sentances))
         {
 
             options = new String[]{"Adam Johnson","Andy Cole","David Becham","Michael Owen"};
-
+            Collections.shuffle(Arrays.asList(options));
         }
 
         if("Who is the only player to have scored in a Champions League final, FA Cup final, UEFA Cup final and League Cup final?".equals(sentances))
         {
 
             options = new String[]{"Steven Gerrard","Robinho","Sergio Agüero","Wayne Rooney"};
-
+            Collections.shuffle(Arrays.asList(options));
         }
 
         if("Who is the only player to have scored a hat-trick in all four tiers of professional football in England, FA Cup, League Cup and at international level?".equals(sentances))
         {
 
             options = new String[]{"Robert Earnshaw","Christiano Ronaldo","Eden Hazard","Yaya Toure"};
-
+            Collections.shuffle(Arrays.asList(options));
         }
 
         if("Who is the only player to have scored in the Glasgow, Merseyside and Manchester derbies?" .equals(sentances))
         {
 
             options = new String[]{"Pep Guardiola","Andrei Kanchelskis","Jomo Sono","David Silva"};
-
+            Collections.shuffle(Arrays.asList(options));
         }
 
 
 
     }
 
-    public int point(String sm, int index)
+    public int point(String sm, String index)
     {
 
         int point = 0;
 
-        if("Which is the national sport of Canada?".equals(sm) && index == 1)
+        if("Which is the national sport of Canada?".equals(sm) && "Lacrosse/Ice hockey".equals(index))
         {
 
             point++;
 
         }
 
-        if("Archery is the national sport of which country?".equals(sm) && index == 2)
-        {
-
-            point++;
-
-
-        }
-
-        if("______ has Cricket as its national sports.".equals(sm) && index == 2)
+        if("Archery is the national sport of which country?".equals(sm) && "Japan".equals(index))
         {
 
             point++;
@@ -280,7 +271,7 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
         }
 
-        if("_______ is the national sport of Turkey".equals(sm) && index == 1)
+        if("______ has Cricket as its national sports.".equals(sm) && "Jamaica".equals(index))
         {
 
             point++;
@@ -288,7 +279,7 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
         }
 
-        if("When was the Commonwealth game started?".equals(sm) && index == 1)
+        if("_______ is the national sport of Turkey".equals(sm) && "Wrestling".equals(index) )
         {
 
             point++;
@@ -296,7 +287,7 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
         }
 
-        if("Which was the host country in 1998 for Asian Games?".equals(sm) && index == 1)
+        if("When was the Commonwealth game started?".equals(sm) && "1930".equals(index))
         {
 
             point++;
@@ -304,25 +295,33 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
         }
 
-        if("Who is the only player to have won silverware at both Manchester United and Liverpool?".equals(sm) && index == 4)
-        {
-            point++;
-
-        }
-        if("Who is the only player to have scored in a Champions League final, FA Cup final, UEFA Cup final and League Cup final?".equals(sm) && index == 1)
+        if("Which was the host country in 1998 for Asian Games?".equals(sm) && "Thailand".equals(index))
         {
 
             point++;
 
+
         }
 
-        if("Who is the only player to have scored a hat-trick in all four tiers of professional football in England, FA Cup, League Cup and at international level?".equals(sm) && index == 1)
+        if("Who is the only player to have won silverware at both Manchester United and Liverpool?".equals(sm) && "Michael Owen".equals(index))
+        {
+            point++;
+
+        }
+        if("Who is the only player to have scored in a Champions League final, FA Cup final, UEFA Cup final and League Cup final?".equals(sm) && "Steven Gerrard".equals(index))
+        {
+
+            point++;
+
+        }
+
+        if("Who is the only player to have scored a hat-trick in all four tiers of professional football in England, FA Cup, League Cup and at international level?".equals(sm) && "Robert Earnshaw".equals(index))
         {
 
             point++;
         }
 
-        if("Who is the only player to have scored in the Glasgow, Merseyside and Manchester derbies?".equals(sm) && index == 2)
+        if("Who is the only player to have scored in the Glasgow, Merseyside and Manchester derbies?".equals(sm) && "Andrei Kanchelskis".equals(index))
         {
 
             point++;

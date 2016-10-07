@@ -445,7 +445,7 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
 
         Intent intent = new Intent(Evolution.this,MainActivity.class);
 
-        intent.putExtra(key,totalscoreput);
+        Toast.makeText(Evolution.this,"Main menu select Quiz category",Toast.LENGTH_LONG).show();
 
         startActivity(intent);
 

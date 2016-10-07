@@ -9,11 +9,16 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     Dialog dialog;
+    Button button;
+    TextView sportscore;
+    String text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        sportscore = (TextView) findViewById(R.id.sprortsscore);
+
+
     }
 
 
@@ -32,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         MenuInflater inflater = new MenuInflater(this);
         inflater.inflate(R.menu.menu_layout,menu);
+
 
         return true;
     }
@@ -42,14 +52,17 @@ public class MainActivity extends AppCompatActivity {
 
         if(item.getItemId() == R.id.scoresid)
         {
-            dialog.setContentView(R.layout.scores_layout);
+
 
             dialog.show();
 
-            dialog.setCanceledOnTouchOutside(false);
+            text = getIntent().getExtras().getString("score");
 
+            sportscore.setText(text);
 
             Toast.makeText(this,"Scores",Toast.LENGTH_SHORT).show();
+
+            dialog.setContentView(R.layout.scores_layout);
         }
 
 return true;
@@ -64,10 +77,6 @@ return true;
 
 }
 
-    public void close(View v)
-    {
 
-        dialog.dismiss();
-    }
 
 }

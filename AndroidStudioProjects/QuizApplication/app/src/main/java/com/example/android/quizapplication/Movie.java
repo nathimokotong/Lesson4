@@ -1,5 +1,6 @@
 package com.example.android.quizapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -467,5 +469,17 @@ public class Movie extends AppCompatActivity implements RadioGroup.OnCheckedChan
 
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+
+        Intent intent = new Intent(Movie.this,MainActivity.class);
+
+        Toast.makeText(Movie.this,"Main menu select Quiz category",Toast.LENGTH_LONG).show();
+
+        startActivity(intent);
+
+    }
 
 }

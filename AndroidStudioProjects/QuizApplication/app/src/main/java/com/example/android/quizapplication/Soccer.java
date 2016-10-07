@@ -1,5 +1,6 @@
 package com.example.android.quizapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -431,6 +433,21 @@ public class Soccer extends AppCompatActivity implements RadioGroup.OnCheckedCha
         A3.setText("");
         A4.setText("");
         score.setText("");
+
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+
+
+        Intent intent = new Intent(Soccer.this,MainActivity.class);
+
+        Toast.makeText(Soccer.this,"Main menu select Quiz category",Toast.LENGTH_LONG).show();
+
+        startActivity(intent);
 
     }
 

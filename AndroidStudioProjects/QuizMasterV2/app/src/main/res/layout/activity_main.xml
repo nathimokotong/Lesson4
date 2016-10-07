@@ -10,11 +10,67 @@
     android:orientation="vertical"
     tools:context="com.example.android.quizmasterv2.MainActivity">
 
-    <Button
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/quizimggg"
+
+        />
+
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Bttn1"
-        android:text="blahblahblah"
+        android:textSize="20sp"
+        android:layout_below="@+id/imageView"
+        android:text="Select one topic from below"
+        android:id="@+id/txtdis"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/txtdis"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button1"
+        android:textSize="40dp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:background="#79d7ff"
+        android:textColor="@android:color/darker_gray"
         android:onClick="sports"
+        android:drawableLeft="@drawable/run"
+        android:text="SPORTS"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button2"
+        android:onClick="changeEv"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:background="#79d7ff"
+        android:textColor="@android:color/darker_gray"
+
+        android:text="BIOLOGY"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button3"
+        android:background="#f179d7ff"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:textSize="40dp"
+        android:drawableLeft="@drawable/song"
+        android:textColor="@android:color/darker_gray"
+        android:onClick="changeMov"
+        android:text="MUSIC"
         />
 </RelativeLayout>

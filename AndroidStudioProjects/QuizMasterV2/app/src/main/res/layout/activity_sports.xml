@@ -15,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/listID"
-
+        android:divider="#0a0a0a"
+        android:dividerHeight="6px"
         />
 </LinearLayout>

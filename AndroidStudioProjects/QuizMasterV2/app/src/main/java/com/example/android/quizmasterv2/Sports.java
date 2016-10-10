@@ -3,6 +3,7 @@ package com.example.android.quizmasterv2;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -40,6 +41,7 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
     String sentance;
     RadioButton radioBtn;
     String[] options;
+    Boolean groupChck = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,9 +91,12 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int pos, long l) {
 
+                groupChck = false;
+               adapterView.getChildAt(pos).setBackgroundColor(Color.YELLOW);
                 line = String.valueOf(adapterView.getItemAtPosition(pos));
                 populate(line);
                 dialog(adapterView, pos, options);
+                adapterView.getChildAt(pos).setOnClickListener(null);
 
             }
 
@@ -134,14 +139,20 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
 
+
                 String txt = "";
                 RadioButton rd = (RadioButton) radioGroup.findViewById(i);
                 txt = rd.getText().toString();
                 points = point(line, txt);
                 total = total + points;
                 // radioGroup.setOnCheckedChangeListener(this);
+                if(txt.length() > 0)
+                {
 
-                Toast.makeText(Sports.this, "Point(s) " + points, Toast.LENGTH_SHORT).show();
+                    groupChck = true;
+                }
+
+
             }
         });
 
@@ -150,10 +161,16 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
             @Override
             public void onClick(View view) {
 
-                builder.dismiss();
+                if(groupChck == true)
+                {
+                    builder.dismiss();
+                }
+                else if(groupChck == false)
+                {
+                 Toast.makeText(Sports.this,"Please select answer ",Toast.LENGTH_LONG).show();
+                }
 
-                // Toast.makeText(Sports.this,"Point(s) "+ radio,Toast.LENGTH_LONG).show();
-            }
+                }
         });
 
 
@@ -310,7 +327,7 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
         Intent intent = new Intent(Sports.this, MainActivity.class);
         String score = ""+total;
         intent.putExtra(ref,score);
-        Toast.makeText(Sports.this,""+total,Toast.LENGTH_SHORT).show();
+        Toast.makeText(Sports.this,""+total+" Questions right out of 10",Toast.LENGTH_LONG).show();
         startActivity(intent);
 
     }

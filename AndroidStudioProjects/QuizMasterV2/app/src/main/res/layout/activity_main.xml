@@ -54,7 +54,7 @@
         android:foreground="?attr/selectableItemBackgroundBorderless"
         android:background="#79d7ff"
         android:textColor="@android:color/darker_gray"
-
+        android:drawableLeft="@drawable/tree"
         android:text="BIOLOGY"
         android:textSize="40dp"
         />
@@ -72,5 +72,16 @@
         android:textColor="@android:color/darker_gray"
         android:onClick="changeMov"
         android:text="MUSIC"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="version 2.0 by Zenith Technology"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/button3"
+        android:layout_centerInParent="true"
         />
 </RelativeLayout>

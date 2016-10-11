@@ -1,78 +1,11 @@
 <application>
   <component name="StatisticsApplicationUsages">
-    <group name="Git">
-      <project id="Testing" values="config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled" collectionTime="1473410090621" />
-      <project id="Recapping" values="config.warn.about.crlf.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.force.push.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled" collectionTime="1474445009329" />
-      <project id="RetryCode" values="config.ssh.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.save.policy.STASH" collectionTime="1472727215804" />
-      <project id="Again Code" values="config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,data.remote.branches.count.1,config.warn.about.detached.enabled,data.remotes.in.project.2+,config.force.push.enabled,data.local.branches.count.1,config.warn.about.crlf.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled" collectionTime="1473408892167" />
-      <project id="Just Java" values="data.local.branches.count.1,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.force.push.enabled,config.save.policy.STASH,config.ssh.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,data.remote.branches.count.2+,data.remotes.in.project.2+,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.warn.about.detached.enabled" collectionTime="1475738098595" />
-      <project id="Happy Bithday" values="config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.force.push.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled" collectionTime="1472199208242" />
-      <project id="NevApp" values="config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.ssh.enabled,config.force.push.enabled" collectionTime="1473685744225" />
-      <project id="JustApp" values="config.push.update.all.roots.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.force.push.enabled" collectionTime="1475654474583" />
-      <project id="Fragment" values="config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.force.push.enabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled" collectionTime="1472819882452" />
-      <project id="Happy Birthday" values="config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,data.remote.branches.count.2+,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.save.policy.STASH,data.local.branches.count.1,data.remotes.in.project.2+" collectionTime="1475654414927" />
-      <project id="Quiz Application" values="config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,data.local.branches.count.1,config.push.update.all.roots.enabled,data.remote.branches.count.2+,config.warn.about.crlf.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,data.remotes.in.project.2+" collectionTime="1475738097535" />
-      <project id="CustomerApp" values="config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.ssh.enabled,config.warn.about.detached.enabled" collectionTime="1473861645193" />
-      <project id="HappyBithday" values="config.save.policy.STASH,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.force.push.enabled" collectionTime="1474613406296" />
-      <project id="NevDraw" values="config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled" collectionTime="1474018643619" />
-      <project id="BMIapp" values="config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,data.remote.branches.count.0,data.local.branches.count.1,config.save.policy.STASH,data.remotes.in.project.0,config.cherry-pick.autocommit.disabled" collectionTime="1475738097567" />
-      <project id="Notebook" values="config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1475495961411" />
-      <project id="NoteBook2" values="config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.push.autoupdate.disabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.warn.about.crlf.enabled" collectionTime="1473063592985" />
-      <project id="SecondTry" values="config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.ssh.enabled,config.push.update.all.roots.enabled" collectionTime="1472724422159" />
-      <project id="Quiz Master V2" values="config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.ssh.enabled,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled" collectionTime="1475738098567" />
-      <project id="ReadFragment" values="config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.force.push.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled" collectionTime="1473751648667" />
-      <project id="Just Coding" values="config.save.policy.STASH,config.ssh.enabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1475568516745" />
-      <project id="NoteBook" values="config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.force.push.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled" collectionTime="1473063061814" />
-      <project id="Fragments again" values="config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled" collectionTime="1473066117025" />
-      <project id="Court Counter" values="config.update.type.BRANCH_DEFAULT,config.repo.sync.DONT_SYNC,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.ssh.enabled,config.push.update.all.roots.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,data.remotes.in.project.2+,data.remote.branches.count.2+,data.local.branches.count.1" collectionTime="1475738098539" />
-      <project id="another_try" values="config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.force.push.enabled,config.ssh.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1472626826701" />
-      <project id="Just Java Recap" values="config.ssh.enabled,config.warn.about.detached.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT" collectionTime="1472724366644" />
-      <project id="Tutorial App" values="config.save.policy.STASH,config.warn.about.crlf.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled" collectionTime="1474967076593" />
-      <project id="Fragment agian" values="config.warn.about.crlf.enabled,config.ssh.enabled,config.force.push.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled" collectionTime="1473154892823" />
-    </group>
-    <group name="vcs">
-      <project id="Happy Birthday" values="Git" collectionTime="1475654414468" />
-      <project id="Court Counter" values="Git" collectionTime="1475738098508" />
-      <project id="BMIapp" values="Git" collectionTime="1475738097535" />
-      <project id="Again Code" values="Git" collectionTime="1473408892082" />
-      <project id="Quiz Application" values="Git" collectionTime="1475738089559" />
-      <project id="Just Java" values="Git" collectionTime="1475738098567" />
-    </group>
-    <group name="file-type">
-      <project id="Testing" values="AIDL,JAVA,ARCHIVE,ProGuard File,PLAIN_TEXT,Images,IDEA_MODULE,Properties,UNKNOWN,XML,Groovy" collectionTime="1473410090620" />
-      <project id="Recapping" values="Images,IDEA_MODULE,PLAIN_TEXT,ARCHIVE,AIDL,Properties,UNKNOWN,Groovy,JAVA,XML,ProGuard File" collectionTime="1474445009329" />
-      <project id="RetryCode" values="XML,Images,PLAIN_TEXT,IDEA_MODULE,UNKNOWN,JAVA,AIDL,ARCHIVE,ProGuard File,Properties,Groovy" collectionTime="1472727215774" />
-      <project id="Again Code" values="XML,IDEA_MODULE,AIDL,Images,ARCHIVE,PLAIN_TEXT,UNKNOWN,Groovy,JAVA,ProGuard File,Properties" collectionTime="1473408892165" />
-      <project id="Just Java" values="IDEA_MODULE,ARCHIVE,JAVA,ProGuard File,Images,UNKNOWN,Properties,AIDL,PLAIN_TEXT,Groovy,XML" collectionTime="1475738098594" />
-      <project id="Happy Bithday" values="XML,JAVA,IDEA_MODULE,ProGuard File,UNKNOWN,ARCHIVE,Images,Groovy,PLAIN_TEXT,Properties" collectionTime="1472199208242" />
-      <project id="NevApp" values="Images,ProGuard File,IDEA_MODULE,Groovy,PLAIN_TEXT,Properties,AIDL,JAVA,UNKNOWN,ARCHIVE,XML" collectionTime="1473685744225" />
-      <project id="JustApp" values="ARCHIVE,ProGuard File,PLAIN_TEXT,AIDL,XML,Images,Properties,IDEA_MODULE,JAVA,Groovy,UNKNOWN" collectionTime="1475654474582" />
-      <project id="Fragment" values="Groovy,JAVA,XML,PLAIN_TEXT,ProGuard File,IDEA_MODULE,Properties,AIDL,UNKNOWN,Images,ARCHIVE" collectionTime="1472819882421" />
-      <project id="Happy Birthday" values="ARCHIVE,Images,Properties,UNKNOWN,AIDL,ProGuard File,JAVA,PLAIN_TEXT,XML,IDEA_MODULE,Groovy" collectionTime="1475654414786" />
-      <project id="Quiz Application" values="Properties,PLAIN_TEXT,XML,ProGuard File,Groovy,AIDL,Images,IDEA_MODULE,JAVA,ARCHIVE,UNKNOWN" collectionTime="1475738097534" />
-      <project id="CustomerApp" values="Properties,ProGuard File,ARCHIVE,Groovy,AIDL,JAVA,IDEA_MODULE,XML,UNKNOWN,Images,PLAIN_TEXT" collectionTime="1473861645192" />
-      <project id="HappyBithday" values="UNKNOWN" collectionTime="1474613406280" />
-      <project id="NevDraw" values="UNKNOWN,IDEA_MODULE,ProGuard File,PLAIN_TEXT,AIDL,Groovy,ARCHIVE,XML,Properties,JAVA,Images" collectionTime="1474018643552" />
-      <project id="BMIapp" values="AIDL,Properties,UNKNOWN,JAVA,PLAIN_TEXT,Groovy,XML,IDEA_MODULE,ARCHIVE,ProGuard File,Images" collectionTime="1475738097566" />
-      <project id="Notebook" values="Properties,ARCHIVE,Images,IDEA_MODULE,AIDL,UNKNOWN,PLAIN_TEXT,ProGuard File,XML,Groovy,JAVA" collectionTime="1475495961410" />
-      <project id="NoteBook2" values="Images,UNKNOWN,XML,IDEA_MODULE,JAVA,ARCHIVE,AIDL,ProGuard File,Groovy,PLAIN_TEXT,Properties" collectionTime="1473063592985" />
-      <project id="SecondTry" values="ARCHIVE,JAVA,XML,PLAIN_TEXT,Properties,ProGuard File,Groovy,AIDL,IDEA_MODULE,UNKNOWN,Images" collectionTime="1472724422159" />
-      <project id="Quiz Master V2" values="JAVA,IDEA_MODULE,Properties,UNKNOWN,ProGuard File,PLAIN_TEXT,XML,AIDL,Groovy,Images,ARCHIVE" collectionTime="1475738098566" />
-      <project id="ReadFragment" values="Images,ProGuard File,XML,ARCHIVE,JAVA,PLAIN_TEXT,Properties,UNKNOWN,Groovy,AIDL,IDEA_MODULE" collectionTime="1473751648467" />
-      <project id="Just Coding" values="JAVA,PLAIN_TEXT,UNKNOWN,ARCHIVE,Properties,XML,Images,IDEA_MODULE,Groovy,ProGuard File,AIDL" collectionTime="1475568516745" />
-      <project id="NoteBook" values="Images,ProGuard File,Properties,Groovy,IDEA_MODULE,XML,AIDL,JAVA,ARCHIVE,UNKNOWN,PLAIN_TEXT" collectionTime="1473063061783" />
-      <project id="Fragments again" values="XML,JAVA,IDEA_MODULE,UNKNOWN,Properties,AIDL,ARCHIVE,Groovy,ProGuard File,Images,PLAIN_TEXT" collectionTime="1473066117025" />
-      <project id="Court Counter" values="UNKNOWN,JAVA,ProGuard File,Properties,IDEA_MODULE,CLASS,AIDL,Groovy,Images,XML,PLAIN_TEXT,ARCHIVE" collectionTime="1475738098538" />
-      <project id="another_try" values="PLAIN_TEXT,AIDL,IDEA_MODULE,ProGuard File,UNKNOWN,Images,Groovy,JAVA,XML,ARCHIVE,Properties" collectionTime="1472626826700" />
-      <project id="Just Java Recap" values="UNKNOWN,Groovy,ProGuard File,XML,IDEA_MODULE,Images,ARCHIVE,Properties,PLAIN_TEXT,AIDL,JAVA" collectionTime="1472724366644" />
-      <project id="Tutorial App" values="IDEA_MODULE,ARCHIVE,Properties,Groovy,UNKNOWN,Images,XML,PLAIN_TEXT,AIDL,ProGuard File,JAVA" collectionTime="1474967076550" />
-      <project id="Fragment agian" values="ARCHIVE,Images,Groovy,UNKNOWN,IDEA_MODULE,AIDL,PLAIN_TEXT,XML,Properties,ProGuard File,JAVA" collectionTime="1473154892823" />
-    </group>
     <group name="run-configuration-type">
       <project id="Testing" values="AndroidRunConfigurationType" collectionTime="1473410090588" />
       <project id="Recapping" values="AndroidRunConfigurationType" collectionTime="1474445009293" />
       <project id="RetryCode" values="AndroidRunConfigurationType" collectionTime="1472727215726" />
       <project id="Again Code" values="AndroidRunConfigurationType" collectionTime="1473408892082" />
+      <project id="testing" values="AndroidRunConfigurationType" collectionTime="1476183208511" />
       <project id="Just Java" values="AndroidRunConfigurationType" collectionTime="1475738098567" />
       <project id="Happy Bithday" values="AndroidRunConfigurationType" collectionTime="1472199208157" />
       <project id="NevApp" values="AndroidRunConfigurationType" collectionTime="1473685744193" />
@@ -83,7 +16,7 @@
       <project id="CustomerApp" values="AndroidRunConfigurationType" collectionTime="1473861645138" />
       <project id="HappyBithday" values="AndroidRunConfigurationType" collectionTime="1474613406202" />
       <project id="NevDraw" values="AndroidRunConfigurationType" collectionTime="1474018643456" />
-      <project id="BMIapp" values="AndroidRunConfigurationType" collectionTime="1475738097535" />
+      <project id="BMIapp" values="AndroidRunConfigurationType" collectionTime="1476187604111" />
       <project id="Notebook" values="AndroidRunConfigurationType" collectionTime="1475495961365" />
       <project id="NoteBook2" values="AndroidRunConfigurationType" collectionTime="1473063592953" />
       <project id="SecondTry" values="AndroidRunConfigurationType" collectionTime="1472724422143" />
@@ -92,47 +25,17 @@
       <project id="Just Coding" values="AndroidRunConfigurationType" collectionTime="1475568516682" />
       <project id="NoteBook" values="AndroidRunConfigurationType" collectionTime="1473063061705" />
       <project id="Fragments again" values="AndroidRunConfigurationType" collectionTime="1473066116993" />
-      <project id="Court Counter" values="AndroidRunConfigurationType" collectionTime="1475738098508" />
+      <project id="Court Counter" values="AndroidRunConfigurationType" collectionTime="1476178557083" />
       <project id="another_try" values="AndroidRunConfigurationType" collectionTime="1472626826671" />
       <project id="Just Java Recap" values="AndroidRunConfigurationType" collectionTime="1472724366598" />
       <project id="Tutorial App" values="AndroidRunConfigurationType" collectionTime="1474967076460" />
-      <project id="Fragment agian" values="AndroidRunConfigurationType" collectionTime="1473154892795" />
-    </group>
-    <group name="language-level">
-      <project id="Testing" values="JDK_1_7,JDK_1_8" collectionTime="1473410090621" />
-      <project id="Recapping" values="JDK_1_8,JDK_1_7" collectionTime="1474445009329" />
-      <project id="RetryCode" values="JDK_1_7,JDK_1_8" collectionTime="1472727215797" />
-      <project id="Again Code" values="JDK_1_7,JDK_1_8" collectionTime="1473408892167" />
-      <project id="Just Java" values="JDK_1_8,JDK_1_7" collectionTime="1475738098595" />
-      <project id="Happy Bithday" values="JDK_1_8,JDK_1_7" collectionTime="1472199208242" />
-      <project id="NevApp" values="JDK_1_7" collectionTime="1473685744225" />
-      <project id="JustApp" values="JDK_1_7,JDK_1_8" collectionTime="1475654474583" />
-      <project id="Fragment" values="JDK_1_7" collectionTime="1472819882452" />
-      <project id="Happy Birthday" values="JDK_1_7,JDK_1_8" collectionTime="1475654414908" />
-      <project id="Quiz Application" values="JDK_1_7,JDK_1_8" collectionTime="1475738097535" />
-      <project id="CustomerApp" values="JDK_1_8,JDK_1_7" collectionTime="1473861645193" />
-      <project id="HappyBithday" values="JDK_1_6" collectionTime="1474613406296" />
-      <project id="NevDraw" values="JDK_1_7,JDK_1_8" collectionTime="1474018643606" />
-      <project id="BMIapp" values="JDK_1_7,JDK_1_8" collectionTime="1475738097567" />
-      <project id="Notebook" values="JDK_1_7,JDK_1_8" collectionTime="1475495961410" />
-      <project id="NoteBook2" values="JDK_1_7" collectionTime="1473063592985" />
-      <project id="SecondTry" values="JDK_1_7,JDK_1_8" collectionTime="1472724422159" />
-      <project id="Quiz Master V2" values="JDK_1_7,JDK_1_8" collectionTime="1475738098567" />
-      <project id="ReadFragment" values="JDK_1_7,JDK_1_8" collectionTime="1473751648585" />
-      <project id="Just Coding" values="JDK_1_7,JDK_1_8" collectionTime="1475568516745" />
-      <project id="NoteBook" values="JDK_1_7" collectionTime="1473063061798" />
-      <project id="Fragments again" values="JDK_1_7" collectionTime="1473066117025" />
-      <project id="Court Counter" values="JDK_1_8,JDK_1_7" collectionTime="1475738098539" />
-      <project id="another_try" values="JDK_1_7,JDK_1_8" collectionTime="1472626826701" />
-      <project id="Just Java Recap" values="JDK_1_8,JDK_1_7" collectionTime="1472724366644" />
-      <project id="Tutorial App" values="JDK_1_7" collectionTime="1474967076592" />
-      <project id="Fragment agian" values="JDK_1_7,JDK_1_8" collectionTime="1473154892823" />
+      <project id="Fragment agian" values="AndroidRunConfigurationType" collectionTime="1476187599582" />
     </group>
     <group name="frameworks">
       <project id="Testing" values="android-gradle,android,java-gradle" collectionTime="1473410090588" />
       <project id="Recapping" values="android,android-gradle,java-gradle" collectionTime="1474445009293" />
       <project id="RetryCode" values="java-gradle,android,android-gradle" collectionTime="1472727215725" />
-      <project id="Court Counter" values="android,android-gradle,java-gradle" collectionTime="1475738098508" />
+      <project id="Court Counter" values="java-gradle,android-gradle,android" collectionTime="1476178557081" />
       <project id="Happy Birthday" values="java-gradle,android,android-gradle" collectionTime="1475654414468" />
       <project id="Just Java" values="android,android-gradle,java-gradle" collectionTime="1475738098567" />
       <project id="Happy Bithday" values="java-gradle,android,android-gradle" collectionTime="1472199208157" />
@@ -143,25 +46,65 @@
       <project id="CustomerApp" values="java-gradle,android,android-gradle" collectionTime="1473861645138" />
       <project id="NevDraw" values="java-gradle,android,android-gradle" collectionTime="1474018643456" />
       <project id="NoteBook" values="android,android-gradle,java-gradle" collectionTime="1473063061705" />
-      <project id="BMIapp" values="android-gradle,android,java-gradle" collectionTime="1475738097535" />
+      <project id="BMIapp" values="android,java-gradle,android-gradle" collectionTime="1476187604111" />
       <project id="Notebook" values="android,java-gradle,android-gradle" collectionTime="1475495961365" />
       <project id="NoteBook2" values="java-gradle,android-gradle,android" collectionTime="1473063592953" />
-      <project id="Fragment agian" values="android,java-gradle,android-gradle" collectionTime="1473154892795" />
+      <project id="Fragment agian" values="android-gradle,android,java-gradle" collectionTime="1476187599582" />
       <project id="SecondTry" values="android-gradle,java-gradle,android" collectionTime="1472724422143" />
       <project id="Quiz Master V2" values="android,java-gradle,android-gradle" collectionTime="1475738098539" />
       <project id="ReadFragment" values="java-gradle,android,android-gradle" collectionTime="1473751648243" />
       <project id="Just Coding" values="java-gradle,android,android-gradle" collectionTime="1475568516682" />
       <project id="Quiz Application" values="java-gradle,android,android-gradle" collectionTime="1475738089559" />
+      <project id="testing" values="android-gradle,java-gradle,android" collectionTime="1476183208511" />
       <project id="another_try" values="java-gradle,android-gradle,android" collectionTime="1472626826671" />
       <project id="Just Java Recap" values="java-gradle,android-gradle,android" collectionTime="1472724366598" />
       <project id="JustApp" values="java-gradle,android-gradle,android" collectionTime="1475654474542" />
       <project id="Fragments again" values="java-gradle,android,android-gradle" collectionTime="1473066116993" />
     </group>
+    <group name="vcs">
+      <project id="Happy Birthday" values="Git" collectionTime="1475654414468" />
+      <project id="Court Counter" values="Git" collectionTime="1476178557081" />
+      <project id="BMIapp" values="Git" collectionTime="1476187604111" />
+      <project id="Again Code" values="Git" collectionTime="1473408892082" />
+      <project id="Quiz Application" values="Git" collectionTime="1475738089559" />
+      <project id="Just Java" values="Git" collectionTime="1475738098567" />
+    </group>
+    <group name="file-type">
+      <project id="Testing" values="AIDL,JAVA,ARCHIVE,ProGuard File,PLAIN_TEXT,Images,IDEA_MODULE,Properties,UNKNOWN,XML,Groovy" collectionTime="1473410090620" />
+      <project id="Recapping" values="Images,IDEA_MODULE,PLAIN_TEXT,ARCHIVE,AIDL,Properties,UNKNOWN,Groovy,JAVA,XML,ProGuard File" collectionTime="1474445009329" />
+      <project id="RetryCode" values="XML,Images,PLAIN_TEXT,IDEA_MODULE,UNKNOWN,JAVA,AIDL,ARCHIVE,ProGuard File,Properties,Groovy" collectionTime="1472727215774" />
+      <project id="Again Code" values="XML,IDEA_MODULE,AIDL,Images,ARCHIVE,PLAIN_TEXT,UNKNOWN,Groovy,JAVA,ProGuard File,Properties" collectionTime="1473408892165" />
+      <project id="testing" values="ARCHIVE,Images,AIDL,JAVA,UNKNOWN,IDEA_MODULE,XML,ProGuard File,Properties,PLAIN_TEXT,Groovy" collectionTime="1476183208545" />
+      <project id="Just Java" values="IDEA_MODULE,ARCHIVE,JAVA,ProGuard File,Images,UNKNOWN,Properties,AIDL,PLAIN_TEXT,Groovy,XML" collectionTime="1475738098594" />
+      <project id="Happy Bithday" values="XML,JAVA,IDEA_MODULE,ProGuard File,UNKNOWN,ARCHIVE,Images,Groovy,PLAIN_TEXT,Properties" collectionTime="1472199208242" />
+      <project id="NevApp" values="Images,ProGuard File,IDEA_MODULE,Groovy,PLAIN_TEXT,Properties,AIDL,JAVA,UNKNOWN,ARCHIVE,XML" collectionTime="1473685744225" />
+      <project id="JustApp" values="ARCHIVE,ProGuard File,PLAIN_TEXT,AIDL,XML,Images,Properties,IDEA_MODULE,JAVA,Groovy,UNKNOWN" collectionTime="1475654474582" />
+      <project id="Fragment" values="Groovy,JAVA,XML,PLAIN_TEXT,ProGuard File,IDEA_MODULE,Properties,AIDL,UNKNOWN,Images,ARCHIVE" collectionTime="1472819882421" />
+      <project id="Happy Birthday" values="ARCHIVE,Images,Properties,UNKNOWN,AIDL,ProGuard File,JAVA,PLAIN_TEXT,XML,IDEA_MODULE,Groovy" collectionTime="1475654414786" />
+      <project id="Quiz Application" values="Properties,PLAIN_TEXT,XML,ProGuard File,Groovy,AIDL,Images,IDEA_MODULE,JAVA,ARCHIVE,UNKNOWN" collectionTime="1475738097534" />
+      <project id="CustomerApp" values="Properties,ProGuard File,ARCHIVE,Groovy,AIDL,JAVA,IDEA_MODULE,XML,UNKNOWN,Images,PLAIN_TEXT" collectionTime="1473861645192" />
+      <project id="HappyBithday" values="UNKNOWN" collectionTime="1474613406280" />
+      <project id="NevDraw" values="UNKNOWN,IDEA_MODULE,ProGuard File,PLAIN_TEXT,AIDL,Groovy,ARCHIVE,XML,Properties,JAVA,Images" collectionTime="1474018643552" />
+      <project id="BMIapp" values="IDEA_MODULE,JAVA,XML,ARCHIVE,Groovy,UNKNOWN,PLAIN_TEXT,AIDL,ProGuard File,Images,Properties" collectionTime="1476187604139" />
+      <project id="Notebook" values="Properties,ARCHIVE,Images,IDEA_MODULE,AIDL,UNKNOWN,PLAIN_TEXT,ProGuard File,XML,Groovy,JAVA" collectionTime="1475495961410" />
+      <project id="NoteBook2" values="Images,UNKNOWN,XML,IDEA_MODULE,JAVA,ARCHIVE,AIDL,ProGuard File,Groovy,PLAIN_TEXT,Properties" collectionTime="1473063592985" />
+      <project id="SecondTry" values="ARCHIVE,JAVA,XML,PLAIN_TEXT,Properties,ProGuard File,Groovy,AIDL,IDEA_MODULE,UNKNOWN,Images" collectionTime="1472724422159" />
+      <project id="Quiz Master V2" values="JAVA,IDEA_MODULE,Properties,UNKNOWN,ProGuard File,PLAIN_TEXT,XML,AIDL,Groovy,Images,ARCHIVE" collectionTime="1475738098566" />
+      <project id="ReadFragment" values="Images,ProGuard File,XML,ARCHIVE,JAVA,PLAIN_TEXT,Properties,UNKNOWN,Groovy,AIDL,IDEA_MODULE" collectionTime="1473751648467" />
+      <project id="Just Coding" values="JAVA,PLAIN_TEXT,UNKNOWN,ARCHIVE,Properties,XML,Images,IDEA_MODULE,Groovy,ProGuard File,AIDL" collectionTime="1475568516745" />
+      <project id="NoteBook" values="Images,ProGuard File,Properties,Groovy,IDEA_MODULE,XML,AIDL,JAVA,ARCHIVE,UNKNOWN,PLAIN_TEXT" collectionTime="1473063061783" />
+      <project id="Fragments again" values="XML,JAVA,IDEA_MODULE,UNKNOWN,Properties,AIDL,ARCHIVE,Groovy,ProGuard File,Images,PLAIN_TEXT" collectionTime="1473066117025" />
+      <project id="Court Counter" values="AIDL,ARCHIVE,IDEA_MODULE,Images,XML,CLASS,UNKNOWN,PLAIN_TEXT,JAVA,Groovy,ProGuard File,Properties" collectionTime="1476178557206" />
+      <project id="another_try" values="PLAIN_TEXT,AIDL,IDEA_MODULE,ProGuard File,UNKNOWN,Images,Groovy,JAVA,XML,ARCHIVE,Properties" collectionTime="1472626826700" />
+      <project id="Just Java Recap" values="UNKNOWN,Groovy,ProGuard File,XML,IDEA_MODULE,Images,ARCHIVE,Properties,PLAIN_TEXT,AIDL,JAVA" collectionTime="1472724366644" />
+      <project id="Tutorial App" values="IDEA_MODULE,ARCHIVE,Properties,Groovy,UNKNOWN,Images,XML,PLAIN_TEXT,AIDL,ProGuard File,JAVA" collectionTime="1474967076550" />
+      <project id="Fragment agian" values="Images,XML,ARCHIVE,UNKNOWN,JAVA,Properties,AIDL,Groovy,ProGuard File,PLAIN_TEXT,IDEA_MODULE" collectionTime="1476187599616" />
+    </group>
     <group name="module type">
       <project id="Testing" values="JAVA_MODULE" collectionTime="1473410090588" />
       <project id="Recapping" values="JAVA_MODULE" collectionTime="1474445009293" />
       <project id="RetryCode" values="JAVA_MODULE" collectionTime="1472727215726" />
-      <project id="Court Counter" values="JAVA_MODULE" collectionTime="1475738098508" />
+      <project id="Court Counter" values="JAVA_MODULE" collectionTime="1476178557082" />
       <project id="Happy Birthday" values="JAVA_MODULE" collectionTime="1475654414469" />
       <project id="Just Java" values="JAVA_MODULE" collectionTime="1475738098567" />
       <project id="Happy Bithday" values="JAVA_MODULE" collectionTime="1472199208157" />
@@ -172,26 +115,89 @@
       <project id="CustomerApp" values="JAVA_MODULE" collectionTime="1473861645138" />
       <project id="NevDraw" values="JAVA_MODULE" collectionTime="1474018643456" />
       <project id="NoteBook" values="JAVA_MODULE" collectionTime="1473063061705" />
-      <project id="BMIapp" values="JAVA_MODULE" collectionTime="1475738097535" />
+      <project id="BMIapp" values="JAVA_MODULE" collectionTime="1476187604111" />
       <project id="Notebook" values="JAVA_MODULE" collectionTime="1475495961365" />
       <project id="NoteBook2" values="JAVA_MODULE" collectionTime="1473063592953" />
-      <project id="Fragment agian" values="JAVA_MODULE" collectionTime="1473154892795" />
+      <project id="Fragment agian" values="JAVA_MODULE" collectionTime="1476187599582" />
       <project id="SecondTry" values="JAVA_MODULE" collectionTime="1472724422143" />
       <project id="Quiz Master V2" values="JAVA_MODULE" collectionTime="1475738098539" />
       <project id="ReadFragment" values="JAVA_MODULE" collectionTime="1473751648244" />
       <project id="Just Coding" values="JAVA_MODULE" collectionTime="1475568516682" />
       <project id="Quiz Application" values="JAVA_MODULE" collectionTime="1475738089559" />
+      <project id="testing" values="JAVA_MODULE" collectionTime="1476183208511" />
       <project id="another_try" values="JAVA_MODULE" collectionTime="1472626826671" />
       <project id="Just Java Recap" values="JAVA_MODULE" collectionTime="1472724366598" />
       <project id="JustApp" values="JAVA_MODULE" collectionTime="1475654474542" />
       <project id="Fragments again" values="JAVA_MODULE" collectionTime="1473066116993" />
+    </group>
+    <group name="Git">
+      <project id="Testing" values="config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled" collectionTime="1473410090621" />
+      <project id="Recapping" values="config.warn.about.crlf.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.force.push.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled" collectionTime="1474445009329" />
+      <project id="RetryCode" values="config.ssh.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.save.policy.STASH" collectionTime="1472727215804" />
+      <project id="Again Code" values="config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,data.remote.branches.count.1,config.warn.about.detached.enabled,data.remotes.in.project.2+,config.force.push.enabled,data.local.branches.count.1,config.warn.about.crlf.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled" collectionTime="1473408892167" />
+      <project id="testing" values="config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.ssh.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled" collectionTime="1476183208546" />
+      <project id="Just Java" values="data.local.branches.count.1,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.force.push.enabled,config.save.policy.STASH,config.ssh.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,data.remote.branches.count.2+,data.remotes.in.project.2+,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.warn.about.detached.enabled" collectionTime="1475738098595" />
+      <project id="Happy Bithday" values="config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.force.push.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled" collectionTime="1472199208242" />
+      <project id="NevApp" values="config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.ssh.enabled,config.force.push.enabled" collectionTime="1473685744225" />
+      <project id="JustApp" values="config.push.update.all.roots.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,config.force.push.enabled" collectionTime="1475654474583" />
+      <project id="Fragment" values="config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.force.push.enabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled" collectionTime="1472819882452" />
+      <project id="Happy Birthday" values="config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,data.remote.branches.count.2+,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.save.policy.STASH,data.local.branches.count.1,data.remotes.in.project.2+" collectionTime="1475654414927" />
+      <project id="Quiz Application" values="config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,data.local.branches.count.1,config.push.update.all.roots.enabled,data.remote.branches.count.2+,config.warn.about.crlf.enabled,config.ssh.enabled,config.push.autoupdate.disabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,data.remotes.in.project.2+" collectionTime="1475738097535" />
+      <project id="CustomerApp" values="config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.ssh.enabled,config.warn.about.detached.enabled" collectionTime="1473861645193" />
+      <project id="HappyBithday" values="config.save.policy.STASH,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.ssh.enabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.force.push.enabled" collectionTime="1474613406296" />
+      <project id="NevDraw" values="config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.ssh.enabled" collectionTime="1474018643619" />
+      <project id="BMIapp" values="config.save.policy.STASH,config.ssh.enabled,data.remote.branches.count.0,data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.force.push.enabled,data.remotes.in.project.0,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED" collectionTime="1476187604140" />
+      <project id="Notebook" values="config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1475495961411" />
+      <project id="NoteBook2" values="config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.push.autoupdate.disabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.warn.about.crlf.enabled" collectionTime="1473063592985" />
+      <project id="SecondTry" values="config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.ssh.enabled,config.push.update.all.roots.enabled" collectionTime="1472724422159" />
+      <project id="Quiz Master V2" values="config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.ssh.enabled,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled" collectionTime="1475738098567" />
+      <project id="ReadFragment" values="config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.force.push.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.warn.about.crlf.enabled" collectionTime="1473751648667" />
+      <project id="Just Coding" values="config.save.policy.STASH,config.ssh.enabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1475568516745" />
+      <project id="NoteBook" values="config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.force.push.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled" collectionTime="1473063061814" />
+      <project id="Fragments again" values="config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled" collectionTime="1473066117025" />
+      <project id="Court Counter" values="config.update.type.BRANCH_DEFAULT,config.repo.sync.DONT_SYNC,data.remote.branches.count.2+,config.push.autoupdate.disabled,config.force.push.enabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,data.local.branches.count.1,config.cherry-pick.autocommit.disabled,data.remotes.in.project.2+,config.save.policy.STASH,config.ssh.enabled,config.warn.about.detached.enabled" collectionTime="1476178557319" />
+      <project id="another_try" values="config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.force.push.enabled,config.ssh.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1472626826701" />
+      <project id="Just Java Recap" values="config.ssh.enabled,config.warn.about.detached.enabled,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT" collectionTime="1472724366644" />
+      <project id="Tutorial App" values="config.save.policy.STASH,config.warn.about.crlf.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled" collectionTime="1474967076593" />
+      <project id="Fragment agian" values="config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled" collectionTime="1476187599617" />
+    </group>
+    <group name="language-level">
+      <project id="Testing" values="JDK_1_7,JDK_1_8" collectionTime="1473410090621" />
+      <project id="Recapping" values="JDK_1_8,JDK_1_7" collectionTime="1474445009329" />
+      <project id="RetryCode" values="JDK_1_7,JDK_1_8" collectionTime="1472727215797" />
+      <project id="Again Code" values="JDK_1_7,JDK_1_8" collectionTime="1473408892167" />
+      <project id="testing" values="JDK_1_7" collectionTime="1476183208546" />
+      <project id="Just Java" values="JDK_1_8,JDK_1_7" collectionTime="1475738098595" />
+      <project id="Happy Bithday" values="JDK_1_8,JDK_1_7" collectionTime="1472199208242" />
+      <project id="NevApp" values="JDK_1_7" collectionTime="1473685744225" />
+      <project id="JustApp" values="JDK_1_7,JDK_1_8" collectionTime="1475654474583" />
+      <project id="Fragment" values="JDK_1_7" collectionTime="1472819882452" />
+      <project id="Happy Birthday" values="JDK_1_7,JDK_1_8" collectionTime="1475654414908" />
+      <project id="Quiz Application" values="JDK_1_7,JDK_1_8" collectionTime="1475738097535" />
+      <project id="CustomerApp" values="JDK_1_8,JDK_1_7" collectionTime="1473861645193" />
+      <project id="HappyBithday" values="JDK_1_6" collectionTime="1474613406296" />
+      <project id="NevDraw" values="JDK_1_7,JDK_1_8" collectionTime="1474018643606" />
+      <project id="BMIapp" values="JDK_1_7,JDK_1_8" collectionTime="1476187604140" />
+      <project id="Notebook" values="JDK_1_7,JDK_1_8" collectionTime="1475495961410" />
+      <project id="NoteBook2" values="JDK_1_7" collectionTime="1473063592985" />
+      <project id="SecondTry" values="JDK_1_7,JDK_1_8" collectionTime="1472724422159" />
+      <project id="Quiz Master V2" values="JDK_1_7,JDK_1_8" collectionTime="1475738098567" />
+      <project id="ReadFragment" values="JDK_1_7,JDK_1_8" collectionTime="1473751648585" />
+      <project id="Just Coding" values="JDK_1_7,JDK_1_8" collectionTime="1475568516745" />
+      <project id="NoteBook" values="JDK_1_7" collectionTime="1473063061798" />
+      <project id="Fragments again" values="JDK_1_7" collectionTime="1473066117025" />
+      <project id="Court Counter" values="JDK_1_7,JDK_1_8" collectionTime="1476178557301" />
+      <project id="another_try" values="JDK_1_7,JDK_1_8" collectionTime="1472626826701" />
+      <project id="Just Java Recap" values="JDK_1_8,JDK_1_7" collectionTime="1472724366644" />
+      <project id="Tutorial App" values="JDK_1_7" collectionTime="1474967076592" />
+      <project id="Fragment agian" values="JDK_1_7,JDK_1_8" collectionTime="1476187599616" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
       <entry feature="CreateFile.CreateFileAction" count="2" />
       <entry feature="execute.AndroidRunConfigurationType.Debug" count="5" />
-      <entry feature="execute.AndroidRunConfigurationType.Run" count="814" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="841" />
       <entry feature="ide.settings.Appearance" count="3" />
       <entry feature="ide.settings.File_Types" count="1" />
       <entry feature="ide.settings.Git" count="1" />

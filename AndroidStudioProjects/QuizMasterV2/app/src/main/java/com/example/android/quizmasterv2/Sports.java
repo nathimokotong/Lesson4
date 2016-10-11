@@ -42,6 +42,7 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
     RadioButton radioBtn;
     String[] options;
     Boolean groupChck = false;
+    String txt = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -140,11 +141,9 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
 
 
-                String txt = "";
                 RadioButton rd = (RadioButton) radioGroup.findViewById(i);
                 txt = rd.getText().toString();
-                points = point(line, txt);
-                total = total + points;
+
                 // radioGroup.setOnCheckedChangeListener(this);
                 if(txt.length() > 0)
                 {
@@ -163,6 +162,8 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
                 if(groupChck == true)
                 {
+                    points = point(line, txt);
+                    total = total + points;
                     builder.dismiss();
                 }
                 else if(groupChck == false)
@@ -324,9 +325,9 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
     public void onBackPressed() {
         super.onBackPressed();
 
+
         Intent intent = new Intent(Sports.this, MainActivity.class);
-        String score = ""+total;
-        intent.putExtra(ref,score);
+      intent.putExtra("scores",total);
         Toast.makeText(Sports.this,""+total+" Questions right out of 10",Toast.LENGTH_LONG).show();
         startActivity(intent);
 

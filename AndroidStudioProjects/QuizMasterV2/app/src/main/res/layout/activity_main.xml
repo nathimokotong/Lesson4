@@ -50,7 +50,7 @@
         android:layout_below="@+id/button1"
         android:layout_marginTop="10dp"
         android:id="@+id/button2"
-        android:onClick="changeEv"
+        android:onClick="biology"
         android:foreground="?attr/selectableItemBackgroundBorderless"
         android:background="#79d7ff"
         android:textColor="@android:color/darker_gray"

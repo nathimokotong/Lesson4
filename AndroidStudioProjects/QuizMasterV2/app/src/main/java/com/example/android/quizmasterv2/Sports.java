@@ -3,6 +3,7 @@ package com.example.android.quizmasterv2;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -34,15 +35,13 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
     int total;
     public String line;
     Dialog builder;
-    String itemselected;
-    int radiobuttoncount;
     int points;
-    String ref = "score";
-    String sentance;
+    int itemscount;
     RadioButton radioBtn;
     String[] options;
     Boolean groupChck = false;
     String txt = "";
+    int qcomplete = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,11 +54,13 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
         super.onCreate(savedInstanceState);
 
+        setTitle("Sports Questions");
+
         final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radiogroup);
 
         LinearLayout linearLayout = (LinearLayout) findViewById(R.id.LayoutID);
 
-        linearLayout.setBackground(getResources().getDrawable(R.drawable.sportsback));
+     //   linearLayout.setBackground(getResources().getDrawable(R.drawable.sportsback));
 
         String[] values = new String[]{"Who is the only player to have won silverware at both Manchester United and Liverpool?"
                 , "Who is the only player to have scored in a Champions League final, FA Cup final, UEFA Cup final and League Cup final?"
@@ -70,6 +71,8 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
         Collections.shuffle(Arrays.asList(values));
 
         String q1, q2, q3, q4, q5, q6, q7, q8, q9, q10;
+
+        itemscount = values.length;
 
         q1 = values[0];
         q2 = values[1];
@@ -92,22 +95,25 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int pos, long l) {
 
+                qcomplete++;
                 groupChck = false;
-               adapterView.getChildAt(pos).setBackgroundColor(Color.YELLOW);
+                adapterView.getChildAt(pos).setBackgroundColor(Color.GRAY);
                 line = String.valueOf(adapterView.getItemAtPosition(pos));
                 populate(line);
-                dialog(adapterView, pos, options);
+                dialog(options);
                 adapterView.getChildAt(pos).setOnClickListener(null);
 
+
+                // adapterView, pos,
             }
 
         });
 
     }
 
-
-    public void dialog(AdapterView adapterView, int pos, String[] arry) {
-
+    // AdapterView adapterView, int pos,
+    public void dialog(String[] arry)
+    {
 
         builder.setContentView(R.layout.radiobutton);
 
@@ -144,9 +150,7 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
                 RadioButton rd = (RadioButton) radioGroup.findViewById(i);
                 txt = rd.getText().toString();
 
-                // radioGroup.setOnCheckedChangeListener(this);
-                if(txt.length() > 0)
-                {
+                if (txt.length() > 0) {
 
                     groupChck = true;
                 }
@@ -160,20 +164,16 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
             @Override
             public void onClick(View view) {
 
-                if(groupChck == true)
-                {
+                if (groupChck == true) {
                     points = point(line, txt);
                     total = total + points;
                     builder.dismiss();
-                }
-                else if(groupChck == false)
-                {
-                 Toast.makeText(Sports.this,"Please select answer ",Toast.LENGTH_LONG).show();
+                } else if (groupChck == false) {
+                    Toast.makeText(Sports.this, "Please select answer ", Toast.LENGTH_LONG).show();
                 }
 
-                }
+            }
         });
-
 
     }
 
@@ -182,14 +182,10 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
         radioBtn = (RadioButton) findViewById(i);
         radiobtnString = radioBtn.getText().toString();
-        //  Toast.makeText(Sports.this,radiobtnString,Toast.LENGTH_LONG).show();
 
     }
 
-
     public void populate(String sentances) {
-        /* "Which is the national sport of Canada?","Archery is the national sport of which country?"
-                , "______ has Cricket as its national sports.","_______ is the national sport of Turkey","When was the Commonwealth game started?","Which was the host country in 1998 for Asian Games?"*/
 
         if ("Which is the national sport of Canada?".equals(sentances)) {
 
@@ -323,13 +319,23 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
 
 
-        Intent intent = new Intent(Sports.this, MainActivity.class);
-      intent.putExtra("scores",total);
-        Toast.makeText(Sports.this,""+total+" Questions right out of 10",Toast.LENGTH_LONG).show();
-        startActivity(intent);
+        if (qcomplete < itemscount) {
+            int rem = itemscount - qcomplete;
+            Toast.makeText(Sports.this, "Please answer the remaining " + rem + " question(s)", Toast.LENGTH_LONG).show();
 
+        } else {
+            Intent intent = new Intent(Sports.this, MainActivity.class);
+            intent.putExtra("scores", total);
+        //    Toast.makeText(Sports.this, "" + total + " Questions right out of 10", Toast.LENGTH_LONG).show();
+
+            SharedPreferences preferences = getSharedPreferences("score",0);
+            SharedPreferences.Editor editor = preferences.edit();
+            editor.putString("edtscore", String.valueOf(total)+"/"+String.valueOf(itemscount));
+            editor.commit();
+
+            startActivity(intent);
+        }
     }
 }

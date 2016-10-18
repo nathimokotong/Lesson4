@@ -403,8 +403,6 @@ public class Evolution extends AppCompatActivity implements RadioGroup.OnChecked
     public void SetRedioGroup4(RadioButton aa,RadioButton bb,RadioButton cc,RadioButton dd)
     {
 
-//"Fc Barcelona","Manchester Utd","AC Milan","Fc Porto"
-//"Brazil","South Africa","Brazil","Hungary"
         String[] indexanswer4 = new String[]{"Individuals must be able to move between populations." ,
                                              "Variation must be genetically inherited.",
                                             "Certain variations allow an individual to produce more offspring that survive in the next generation."

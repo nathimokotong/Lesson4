@@ -19,19 +19,20 @@
     <location key="Github.UntrackedFilesDialog.0.0.1920.1080" x="1113" y="221" />
     <location key="ProcessPopupWindow.0.0.1920.1080" x="1623" y="874" />
     <location key="CommitChangelistDialog2.0.0.1920.1080" x="997" y="212" />
-    <location key="Vcs.Push.Dialog.0.0.1920.1080" x="1042" y="221" />
+    <location key="Vcs.Push.Dialog.0.0.1920.1080" x="768" y="169" />
     <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1920.1080" x="740" y="395" />
     <location key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" x="1138" y="209" />
     <location key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog.0.0.1920.1080" x="684" y="280" />
     <location key="AndroidProcessChooserDialog.0.0.1920.1080" x="815" y="307" />
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1302" height="263" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1302" height="263" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1302" height="263" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1302" height="263" />
-    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1302" height="263" />
-    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1302" height="263" />
-    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1302" height="263" />
-    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1302" height="263" />
+    <location key="DiffContextDialog.0.0.1920.1080" x="286" y="0" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1874" height="262" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1874" height="262" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1874" height="262" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1874" height="262" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1874" height="262" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1874" height="262" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1874" height="262" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1874" height="262" />
     <size key="javadoc.popup.0.0.1920.1080" width="409" height="156" />
     <size key="ProcessPopupWindow.0.0.1920.1080" width="203" height="107" />
   </component>

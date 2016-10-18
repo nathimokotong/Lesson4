@@ -261,7 +261,7 @@ public class Entertainment extends AppCompatActivity implements RadioGroup.OnChe
     {
 
 
-        if (qcomplete < 4)
+        if (qcomplete < itemscount)
         {
 
 

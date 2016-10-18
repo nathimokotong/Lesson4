@@ -328,8 +328,6 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
         } else {
             Intent intent = new Intent(Sports.this, MainActivity.class);
             intent.putExtra("scores", total);
-        //    Toast.makeText(Sports.this, "" + total + " Questions right out of 10", Toast.LENGTH_LONG).show();
-
             SharedPreferences preferences = getSharedPreferences("score",0);
             SharedPreferences.Editor editor = preferences.edit();
             editor.putString("edtscore", String.valueOf(total)+"/"+String.valueOf(itemscount));

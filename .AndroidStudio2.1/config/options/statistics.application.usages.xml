@@ -210,7 +210,7 @@
     <counts>
       <entry feature="CreateFile.CreateFileAction" count="2" />
       <entry feature="execute.AndroidRunConfigurationType.Debug" count="5" />
-      <entry feature="execute.AndroidRunConfigurationType.Run" count="972" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="982" />
       <entry feature="ide.settings.Appearance" count="3" />
       <entry feature="ide.settings.File_Types" count="1" />
       <entry feature="ide.settings.Git" count="1" />

@@ -26,14 +26,16 @@
     <location key="AndroidProcessChooserDialog.0.0.1920.1080" x="815" y="307" />
     <location key="DiffContextDialog.0.0.1920.1080" x="286" y="0" />
     <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" x="726" y="429" />
+    <location key="refactoring.ChangeSignatureDialog.0.0.1920.1080" x="682" y="169" />
+    <location key="#Intentions.0.0.1920.1080" x="546" y="190" />
     <size key="GridCell.Tab.0.left.0.0.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.0.center.0.0.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.0.right.0.0.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="0" height="0" />
-    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1874" height="240" />
-    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1874" height="240" />
-    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1874" height="240" />
-    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1874" height="240" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1866" height="258" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1866" height="258" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1866" height="258" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1866" height="258" />
     <size key="javadoc.popup.0.0.1920.1080" width="409" height="156" />
     <size key="ProcessPopupWindow.0.0.1920.1080" width="203" height="107" />
   </component>

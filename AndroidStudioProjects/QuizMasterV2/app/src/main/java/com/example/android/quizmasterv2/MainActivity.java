@@ -156,6 +156,10 @@ return true;
     }
 
 
-
-
+    @Override
+    public void onBackPressed() {
+        this.moveTaskToBack(true);
+    }
 }
+
+

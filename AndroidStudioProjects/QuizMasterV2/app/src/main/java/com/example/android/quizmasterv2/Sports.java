@@ -63,9 +63,7 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
      //   linearLayout.setBackground(getResources().getDrawable(R.drawable.sportsback));
 
         String[] values = new String[]{"Who is the only player to have won silverware at both Manchester United and Liverpool?"
-                , "Who is the only player to have scored in a Champions League final, FA Cup final, UEFA Cup final and League Cup final?"
-                , "Who is the only player to have scored a hat-trick in all four tiers of professional football in England, FA Cup, League Cup and at international level?"
-                , "Who is the only player to have scored in the Glasgow, Merseyside and Manchester derbies?", "Which is the national sport of Canada?", "Archery is the national sport of which country?"
+                , "Which is the national sport of Canada?", "Archery is the national sport of which country?"
                 , "______ has Cricket as its national sports.", "_______ is the national sport of Turkey", "When was the Commonwealth game started?", "Which was the host country in 1998 for Asian Games?"};
 
         Collections.shuffle(Arrays.asList(values));
@@ -81,11 +79,9 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
         q5 = values[4];
         q6 = values[5];
         q7 = values[6];
-        q8 = values[7];
-        q9 = values[8];
-        q10 = values[9];
 
-        String[] rearranged = new String[]{q1, q2, q3, q4, q5, q6, q7, q8, q9, q10};
+
+        String[] rearranged = new String[]{q1, q2, q3, q4, q5, q6, q7};
 
         ListAdapter theAddptr = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, rearranged);
         ListView theListView = (ListView) findViewById(R.id.listID);
@@ -104,14 +100,13 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
                 adapterView.getChildAt(pos).setOnClickListener(null);
 
 
-                // adapterView, pos,
+
             }
 
         });
 
     }
 
-    // AdapterView adapterView, int pos,
     public void dialog(String[] arry)
     {
 
@@ -119,7 +114,6 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
         List<String> stringList = new ArrayList<String>();
 
-        //Collections.shuffle(Arrays.asList(arry));
 
         for (int i = 0; i < 4; i++) {
             stringList.add(arry[i]);
@@ -230,23 +224,23 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
             Collections.shuffle(Arrays.asList(options));
         }
 
-        if ("Who is the only player to have scored in a Champions League final, FA Cup final, UEFA Cup final and League Cup final?".equals(sentances)) {
-
-            options = new String[]{"Steven Gerrard", "Robinho", "Sergio Agüero", "Wayne Rooney"};
-            Collections.shuffle(Arrays.asList(options));
-        }
-
-        if ("Who is the only player to have scored a hat-trick in all four tiers of professional football in England, FA Cup, League Cup and at international level?".equals(sentances)) {
-
-            options = new String[]{"Robert Earnshaw", "Christiano Ronaldo", "Eden Hazard", "Yaya Toure"};
-            Collections.shuffle(Arrays.asList(options));
-        }
-
-        if ("Who is the only player to have scored in the Glasgow, Merseyside and Manchester derbies?".equals(sentances)) {
-
-            options = new String[]{"Pep Guardiola", "Andrei Kanchelskis", "Jomo Sono", "David Silva"};
-            Collections.shuffle(Arrays.asList(options));
-        }
+//        if ("Who is the only player to have scored in a Champions League final, FA Cup final, UEFA Cup final and League Cup final?".equals(sentances)) {
+//
+//            options = new String[]{"Steven Gerrard", "Robinho", "Sergio Agüero", "Wayne Rooney"};
+//            Collections.shuffle(Arrays.asList(options));
+//        }
+//
+//        if ("Who is the only player to have scored a hat-trick in all four tiers of professional football in England, FA Cup, League Cup and at international level?".equals(sentances)) {
+//
+//            options = new String[]{"Robert Earnshaw", "Christiano Ronaldo", "Eden Hazard", "Yaya Toure"};
+//            Collections.shuffle(Arrays.asList(options));
+//        }
+//
+//        if ("Who is the only player to have scored in the Glasgow, Merseyside and Manchester derbies?".equals(sentances)) {
+//
+//            options = new String[]{"Pep Guardiola", "Andrei Kanchelskis", "Jomo Sono", "David Silva"};
+//            Collections.shuffle(Arrays.asList(options));
+//        }
 
 
     }

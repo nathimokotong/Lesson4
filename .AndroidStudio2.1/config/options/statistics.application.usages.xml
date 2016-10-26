@@ -216,12 +216,13 @@
     <counts>
       <entry feature="CreateFile.CreateFileAction" count="2" />
       <entry feature="execute.AndroidRunConfigurationType.Debug" count="5" />
-      <entry feature="execute.AndroidRunConfigurationType.Run" count="1167" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="1237" />
       <entry feature="ide.settings.Appearance" count="3" />
       <entry feature="ide.settings.File_Types" count="1" />
       <entry feature="ide.settings.Git" count="1" />
       <entry feature="ide.settings.Project_Structure" count="2" />
       <entry feature="ideaapp.started" count="44" />
+      <entry feature="terminal.win" count="1" />
       <entry feature="welcome.screen.WelcomeScreen.Configure" count="6" />
       <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="2" />
       <entry feature="welcome.screen.WelcomeScreen.RunAndroidSdkManager" count="1" />

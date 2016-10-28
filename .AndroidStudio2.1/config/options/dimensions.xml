@@ -7,6 +7,7 @@
     <location key="deploy.picker.dialog.0.0.1920.1080" x="640" y="288" />
     <location key="Vcs.Push.Dialog.0.0.1920.1080" x="654" y="247" />
     <location key="chooseDestDirectoryDialog.0.0.1920.1080" x="776" y="311" />
+    <location key="CommitChangelistDialog2.0.0.1920.1080" x="613" y="238" />
     <size key="javadoc.popup.0.0.1920.1080" width="446" height="165" />
     <size key="GridCell.Tab.0.left.0.0.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.0.center.0.0.1920.1080" width="0" height="0" />

@@ -1,42 +1,20 @@
 <application>
   <component name="DimensionService">
-    <location key="SettingsEditor.0.0.1920.1080" x="374" y="120" />
-    <location key="WELCOME_SCREEN.0.0.1920.1080" x="893" y="230" />
     <location key="FileChooserDialogImpl.0.0.1920.1080" x="673" y="219" />
-    <location key="OptionsEditor.0.0.1920.1080" x="475" y="115" />
-    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="667" y="331" />
-    <location key="deploy.picker.dialog.0.0.1920.1080" x="640" y="268" />
-    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1920.1080" x="690" y="260" />
-    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1920.1080" x="690" y="268" />
-    <location key="findTextDialog.0.0.1920.1080" x="1158" y="252" />
-    <location key="#app.0.0.1920.1080" x="1208" y="218" />
-    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" x="1182" y="348" />
-    <location key="chooseDestDirectoryDialog.0.0.1920.1080" x="1209" y="320" />
-    <location key="AndroidCreateResourceDirectoryDialog.0.0.1920.1080" x="973" y="296" />
-    <location key="AndroidCreateResourceFileDialog.0.0.1920.1080" x="357" y="208" />
-    <location key="AndroidCreateXmlResourceDialog.0.0.1920.1080" x="839" y="459" />
-    <location key="Github.ShareDialog.0.0.1920.1080" x="1130" y="383" />
-    <location key="Github.UntrackedFilesDialog.0.0.1920.1080" x="1113" y="221" />
-    <location key="ProcessPopupWindow.0.0.1920.1080" x="1623" y="874" />
-    <location key="CommitChangelistDialog2.0.0.1920.1080" x="997" y="212" />
-    <location key="Vcs.Push.Dialog.0.0.1920.1080" x="768" y="169" />
-    <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1920.1080" x="740" y="395" />
-    <location key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" x="1138" y="209" />
-    <location key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog.0.0.1920.1080" x="684" y="280" />
-    <location key="AndroidProcessChooserDialog.0.0.1920.1080" x="815" y="307" />
-    <location key="DiffContextDialog.0.0.1920.1080" x="286" y="0" />
-    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" x="726" y="429" />
-    <location key="refactoring.ChangeSignatureDialog.0.0.1920.1080" x="682" y="169" />
-    <location key="#Intentions.0.0.1920.1080" x="546" y="190" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="893" y="230" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="667" y="351" />
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1920.1080" x="690" y="280" />
+    <location key="deploy.picker.dialog.0.0.1920.1080" x="640" y="288" />
+    <location key="Vcs.Push.Dialog.0.0.1920.1080" x="654" y="247" />
+    <location key="chooseDestDirectoryDialog.0.0.1920.1080" x="776" y="311" />
+    <size key="javadoc.popup.0.0.1920.1080" width="446" height="165" />
     <size key="GridCell.Tab.0.left.0.0.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.0.center.0.0.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.0.right.0.0.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="0" height="0" />
-    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1874" height="240" />
-    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1874" height="240" />
-    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1874" height="240" />
-    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1874" height="240" />
-    <size key="javadoc.popup.0.0.1920.1080" width="409" height="156" />
-    <size key="ProcessPopupWindow.0.0.1920.1080" width="203" height="107" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1876" height="225" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1876" height="225" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1876" height="225" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1876" height="225" />
   </component>
 </application>

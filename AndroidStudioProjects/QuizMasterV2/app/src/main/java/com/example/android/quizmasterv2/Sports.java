@@ -56,6 +56,9 @@ public class Sports extends AppCompatActivity implements RadioGroup.OnCheckedCha
 
         setTitle("Sports Questions");
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.q1);
+
         final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radiogroup);
 
         LinearLayout linearLayout = (LinearLayout) findViewById(R.id.LayoutID);

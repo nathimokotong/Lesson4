@@ -52,6 +52,9 @@ public class Entertainment extends AppCompatActivity implements RadioGroup.OnChe
 
         setTitle("Entertainment Questions");
 
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.q1);
+
         final RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radiogroup);
 
         LinearLayout linearLayout = (LinearLayout) findViewById(R.id.LayoutID);

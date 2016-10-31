@@ -44,40 +44,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setIcon(R.mipmap.q1);
 
-        //    textsport = (TextView)findViewById(R.id.textView2);
-
-        //      new CountDownTimer(4000, 900) {
-//            @Override
-//            public void onTick(long l) {
-//
-//                if(i == 0)
-//                {
-//                    textsport.setTextColor(getResources().getColor(R.color.colorAccent));
-//                i++;
-//                }
-//                if(i == 1)
-//                {
-//                    textsport.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
-//                    i++;
-//                }
-//                if(i == 0) {
-//                    textsport.setTextColor(getResources().getColor(R.color.colorPrimary));
-//                    i = 0;
-//                }
-//            }
-//
-//            @Override
-//            public void onFinish() {
-//
-//                finish();
-//            }
-//
-//
-//        }.start();
-//    }
     }
 
     @Override

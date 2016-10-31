@@ -3,7 +3,6 @@
     <jdk version="2">
       <name value="Android API 24 Platform" />
       <type value="Android SDK" />
-      <version value="java version &quot;1.8.0_40&quot;" />
       <homePath value="C:\Users\Codetribe\AppData\Local\Android\sdk1" />
       <roots>
         <annotationsPath>

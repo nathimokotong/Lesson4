@@ -6,9 +6,9 @@
     <property name="AndroidInitConfigurator.V3" value="true" />
     <property name="AndroidInitConfigurator.V1" value="true" />
     <property name="AndroidInitConfigurator.V2" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/AndroidStudioProjects/QuizMasterV2&#10;C:/Users/Codetribe/AndroidStudioProjects/Mp3player&#10;C:/Users/Codetribe/Desktop&#10;C:/Users/Codetribe/AppData/Local/Android/sdk1" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/AndroidStudioProjects/CourtCounter&#10;C:/Users/Codetribe/AndroidStudioProjects/QuizMasterV2&#10;C:/Users/Codetribe/AndroidStudioProjects/Mp3player&#10;C:/Users/Codetribe/Desktop&#10;C:/Users/Codetribe/AppData/Local/Android/sdk1" />
     <property name="MobileminApi" value="17" />
-    <property name="lastTip" value="44" />
+    <property name="lastTip" value="45" />
     <property name="com.google.gct.enable.cloud.testing" value="true" />
     <property name="SAVED_COMPANY_DOMAIN" value="android.example.com" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />

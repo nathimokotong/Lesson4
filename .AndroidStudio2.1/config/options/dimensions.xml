@@ -10,10 +10,10 @@
     <location key="CommitChangelistDialog2.0.0.1920.1080" x="613" y="238" />
     <location key="Github.ShareDialog.0.0.1920.1080" x="752" y="409" />
     <size key="javadoc.popup.0.0.1920.1080" width="446" height="165" />
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1864" height="221" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1864" height="221" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1864" height="221" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1864" height="221" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1864" height="221" />
     <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1864" height="221" />
     <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1864" height="221" />

@@ -22,21 +22,21 @@ TextToSpeech tts;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
 
-        family = new String[]{"aunt","brother","cousin","daughter in law",
+        family = new String[]{"aunt","brother","cousin","younger sister",
                 "father","grandfather" ,"grandmother","mother","sister","uncle"};
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("aunt","rakgadi"));
-        words.add(new Word("brother","moholwane"));
-        words.add(new Word("cousin","motswala"));
-        words.add(new Word("daughter in law","ngwetsi"));
-        words.add(new Word("father", "ntate"));
-        words.add(new Word("grandfather" ,"ntatemoholo"));
-        words.add(new Word("grandmother","nkgono"));
-        words.add(new Word("mother","mme"));
-        words.add(new Word("sister","kgaitsedi"));
-        words.add(new Word("uncle","malome"));
+        words.add(new Word("aunt","rakgadi",R.drawable.family_older_sister));
+        words.add(new Word("brother","moholwane",R.drawable.family_younger_brother));
+        words.add(new Word("cousin","motswala",R.drawable.family_younger_brother));
+        words.add(new Word("younger sister","ngwetsi",R.drawable.family_younger_sister));
+        words.add(new Word("father", "ntate",R.drawable.family_father));
+        words.add(new Word("grandfather" ,"ntatemoholo",R.drawable.family_grandfather));
+        words.add(new Word("grandmother","nkgono",R.drawable.family_grandmother));
+        words.add(new Word("mother","mme",R.drawable.family_mother));
+        words.add(new Word("sister","kgaitsedi",R.drawable.family_daughter));
+        words.add(new Word("uncle","malome",R.drawable.family_older_brother));
 
 
         WordAdapter itemsAdapter = new WordAdapter(this,words);

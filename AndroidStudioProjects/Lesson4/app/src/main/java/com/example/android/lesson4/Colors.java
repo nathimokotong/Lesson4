@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -22,21 +23,22 @@ public class Colors extends AppCompatActivity implements TextToSpeech.OnInitList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
 
+      //  RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.Rlayout);
+
+
         colors = new String[]{"black","white","gray",
-                "red","blue","yellow","green","orange","purple","brown"};
+                "red","dusty yellow","mustard yellow","green"};
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("black","tntsho"));
-        words.add(new Word("white","tshweu"));
-        words.add(new Word("gray","thokwa"));
-        words.add(new Word("red","kgubedu"));
-        words.add(new Word("blue","putswa/bolou"));
-        words.add(new Word("yellow","tshehla"));
-        words.add(new Word("green","tala"));
-        words.add(new Word("orange","tlamunu"));
-        words.add(new Word("purple","tperese"));
-        words.add(new Word("brown","tsootho"));
+        words.add(new Word("black","tntsho",R.drawable.color_black));
+        words.add(new Word("white","tshweu",R.drawable.color_white));
+        words.add(new Word("gray","thokwa",R.drawable.color_gray));
+        words.add(new Word("red","kgubedu",R.drawable.color_red));
+        words.add(new Word("dusty yellow","putswa/bolou",R.drawable.color_dusty_yellow));
+        words.add(new Word("mustard yellow","tshehla",R.drawable.color_mustard_yellow));
+        words.add(new Word("green","tala",R.drawable.color_green));
+
 
         WordAdapter itemsAdapter = new WordAdapter(this,words);
         ListView listView = (ListView)findViewById(R.id.numberslist);

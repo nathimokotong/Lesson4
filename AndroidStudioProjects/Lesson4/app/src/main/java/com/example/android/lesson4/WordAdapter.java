@@ -31,17 +31,26 @@ public class WordAdapter extends ArrayAdapter<Word> {
         {
             listView = LayoutInflater.from(getContext()).inflate(R.layout.listview_lay_custom,parent,false);
         }
-
+        //gets the item at that position of the listview
         Word wrd = getItem(position);
+
         TextView defualt = (TextView) listView.findViewById(R.id.default_textview);
         defualt.setText(wrd.getmDefault());
 
-
+        ImageView imView = (ImageView) listView.findViewById(R.id.imageView);
+        if(wrd.hasimage())
+        {
+            imView.setVisibility(View.VISIBLE);
+            imView.setImageResource(wrd.getImageResource());
+        }
+        else
+        {
+            imView.setVisibility(View.GONE);
+        }
         TextView miWok = (TextView) listView.findViewById(R.id.miwork_textview);
         miWok.setText(wrd.getmMiwok());
 
-        ImageView imView = (ImageView) listView.findViewById(R.id.imageView);
-        imView.setImageResource(wrd.getImageResource());
+
         return listView;
 
     }

@@ -1,50 +1,50 @@
 <application>
   <component name="StatisticsApplicationUsages">
-    <group name="Git">
-      <project id="Mp3player" values="config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.force.push.enabled,config.ssh.enabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled" collectionTime="1478159162179" />
-      <project id="Lesson4" values="data.local.branches.count.1,config.ssh.enabled,data.remote.branches.count.8+,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,data.remotes.in.project.5+,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.force.push.enabled" collectionTime="1478181400784" />
-      <project id="CourtCounter" values="config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,data.local.branches.count.1,data.remotes.in.project.5+,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.force.push.enabled,data.remote.branches.count.8+,config.warn.about.detached.enabled" collectionTime="1478159662288" />
-      <project id="QuizMasterV2" values="config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,data.remotes.in.project.5+,config.save.policy.STASH,config.warn.about.detached.enabled,data.local.branches.count.1,config.force.push.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,data.remote.branches.count.8+" collectionTime="1477922179173" />
+    <group name="run-configuration-type">
+      <project id="Mp3player" values="AndroidRunConfigurationType" collectionTime="1478256618462" />
+      <project id="Lesson4" values="AndroidRunConfigurationType" collectionTime="1478181400751" />
+      <project id="CourtCounter" values="AndroidRunConfigurationType" collectionTime="1478159662229" />
+      <project id="QuizMasterV2" values="AndroidRunConfigurationType" collectionTime="1477922179138" />
+    </group>
+    <group name="module type">
+      <project id="Mp3player" values="JAVA_MODULE" collectionTime="1478256618461" />
+      <project id="Lesson4" values="JAVA_MODULE" collectionTime="1478181400751" />
+      <project id="CourtCounter" values="JAVA_MODULE" collectionTime="1478159662229" />
+      <project id="QuizMasterV2" values="JAVA_MODULE" collectionTime="1477922179138" />
     </group>
     <group name="vcs">
       <project id="Lesson4" values="Git" collectionTime="1478181400751" />
       <project id="CourtCounter" values="Git" collectionTime="1478159662229" />
       <project id="QuizMasterV2" values="Git" collectionTime="1477922179138" />
     </group>
-    <group name="frameworks">
-      <project id="Mp3player" values="android-gradle,android,java-gradle" collectionTime="1478159159776" />
-      <project id="Lesson4" values="java-gradle,android,android-gradle" collectionTime="1478181400751" />
-      <project id="CourtCounter" values="android-gradle,android,java-gradle" collectionTime="1478159662229" />
-      <project id="QuizMasterV2" values="android-gradle,java-gradle,android" collectionTime="1477922179138" />
-    </group>
-    <group name="run-configuration-type">
-      <project id="Mp3player" values="AndroidRunConfigurationType" collectionTime="1478159159778" />
-      <project id="Lesson4" values="AndroidRunConfigurationType" collectionTime="1478181400751" />
-      <project id="CourtCounter" values="AndroidRunConfigurationType" collectionTime="1478159662229" />
-      <project id="QuizMasterV2" values="AndroidRunConfigurationType" collectionTime="1477922179138" />
-    </group>
-    <group name="language-level">
-      <project id="Mp3player" values="JDK_1_7" collectionTime="1478159162179" />
-      <project id="Lesson4" values="JDK_1_7" collectionTime="1478181400784" />
-      <project id="CourtCounter" values="JDK_1_7,JDK_1_8" collectionTime="1478159662277" />
-      <project id="QuizMasterV2" values="JDK_1_8,JDK_1_7" collectionTime="1477922179173" />
-    </group>
     <group name="file-type">
-      <project id="Mp3player" values="Groovy,ProGuard File,JAVA,Properties,UNKNOWN,XML,AIDL" collectionTime="1478159162131" />
+      <project id="Mp3player" values="Properties,Groovy,ProGuard File,PLAIN_TEXT,AIDL,ARCHIVE,XML,IDEA_MODULE,Images,UNKNOWN,JAVA" collectionTime="1478256618511" />
       <project id="Lesson4" values="Properties,XML,Groovy,PLAIN_TEXT,ProGuard File,AIDL,Images,IDEA_MODULE,JAVA,UNKNOWN,ARCHIVE" collectionTime="1478181400783" />
       <project id="CourtCounter" values="JAVA,IDEA_MODULE,ARCHIVE,Images,XML,ProGuard File,Groovy,PLAIN_TEXT,AIDL,UNKNOWN,Properties" collectionTime="1478159662276" />
       <project id="QuizMasterV2" values="AIDL,ARCHIVE,JAVA,Groovy,IDEA_MODULE,ProGuard File,Images,PLAIN_TEXT,XML,Properties,UNKNOWN" collectionTime="1477922179172" />
     </group>
-    <group name="module type">
-      <project id="Mp3player" values="JAVA_MODULE" collectionTime="1478159159776" />
-      <project id="Lesson4" values="JAVA_MODULE" collectionTime="1478181400751" />
-      <project id="CourtCounter" values="JAVA_MODULE" collectionTime="1478159662229" />
-      <project id="QuizMasterV2" values="JAVA_MODULE" collectionTime="1477922179138" />
+    <group name="Git">
+      <project id="Mp3player" values="config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.ssh.enabled,config.force.push.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.update.type.BRANCH_DEFAULT" collectionTime="1478256618521" />
+      <project id="Lesson4" values="data.local.branches.count.1,config.ssh.enabled,data.remote.branches.count.8+,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,data.remotes.in.project.5+,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.force.push.enabled" collectionTime="1478181400784" />
+      <project id="CourtCounter" values="config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled,data.local.branches.count.1,data.remotes.in.project.5+,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.force.push.enabled,data.remote.branches.count.8+,config.warn.about.detached.enabled" collectionTime="1478159662288" />
+      <project id="QuizMasterV2" values="config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,data.remotes.in.project.5+,config.save.policy.STASH,config.warn.about.detached.enabled,data.local.branches.count.1,config.force.push.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,data.remote.branches.count.8+" collectionTime="1477922179173" />
+    </group>
+    <group name="frameworks">
+      <project id="Mp3player" values="java-gradle,android-gradle,android" collectionTime="1478256618461" />
+      <project id="Lesson4" values="java-gradle,android,android-gradle" collectionTime="1478181400751" />
+      <project id="CourtCounter" values="android-gradle,android,java-gradle" collectionTime="1478159662229" />
+      <project id="QuizMasterV2" values="android-gradle,java-gradle,android" collectionTime="1477922179138" />
+    </group>
+    <group name="language-level">
+      <project id="Mp3player" values="JDK_1_7" collectionTime="1478256618520" />
+      <project id="Lesson4" values="JDK_1_7" collectionTime="1478181400784" />
+      <project id="CourtCounter" values="JDK_1_7,JDK_1_8" collectionTime="1478159662277" />
+      <project id="QuizMasterV2" values="JDK_1_8,JDK_1_7" collectionTime="1477922179173" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="execute.AndroidRunConfigurationType.Run" count="125" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="143" />
       <entry feature="ideaapp.started" count="5" />
       <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="1" />
       <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="1" />

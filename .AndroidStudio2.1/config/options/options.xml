@@ -6,9 +6,9 @@
     <property name="AndroidInitConfigurator.V3" value="true" />
     <property name="AndroidInitConfigurator.V1" value="true" />
     <property name="AndroidInitConfigurator.V2" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/AndroidStudioProjects/CourtCounter&#10;C:/Users/Codetribe/AndroidStudioProjects/QuizMasterV2&#10;C:/Users/Codetribe/AndroidStudioProjects/Mp3player&#10;C:/Users/Codetribe/Desktop&#10;C:/Users/Codetribe/AppData/Local/Android/sdk1" />
+    <property name="file.chooser.recent.files" value="$APPLICATION_HOME_DIR$/plugins/android/lib/templates/gradle-projects/NewAndroidModule/root/res/mipmap-xxxhdpi/ic_launcher.png&#10;C:/Users/Codetribe/Desktop/seven.jpg&#10;C:/Users/Codetribe/Desktop/nine.jpg&#10;C:/Users/Codetribe/Desktop/eight.jpg&#10;C:/Users/Codetribe/Desktop/one.jpg&#10;C:/Users/Codetribe/AndroidStudioProjects/QuizMasterV2&#10;C:/Users/Codetribe/AndroidStudioProjects/CourtCounter&#10;C:/Users/Codetribe/AndroidStudioProjects/Mp3player&#10;C:/Users/Codetribe/Desktop&#10;C:/Users/Codetribe/AppData/Local/Android/sdk1" />
     <property name="MobileminApi" value="17" />
-    <property name="lastTip" value="45" />
+    <property name="lastTip" value="47" />
     <property name="com.google.gct.enable.cloud.testing" value="true" />
     <property name="SAVED_COMPANY_DOMAIN" value="android.example.com" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
@@ -17,7 +17,7 @@
     <property name="Copy.OpenInEditor" value="true" />
     <property name="fileTypeChangedCounter" value="3" />
     <property name="decompiler.legal.notice.accepted" value="true" />
-    <property name="android-component-compatibility-check" value="1477556521543" />
+    <property name="android-component-compatibility-check" value="1478246503028" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="ShowDocumentationInToolWindow" value="false" />

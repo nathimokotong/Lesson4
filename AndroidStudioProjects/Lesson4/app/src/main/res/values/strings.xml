@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Lesson4</string>
+    <string name="category_phrase">Phrases</string>
+    <string name="category_colors">Colors</string>
+    <string name="category_numbers">Numbers</string>
+    <string name="category_family">Family</string>
+    <string name="action_settings">Settings</string>
+    <string name="number_one">one</string>
+    <string name="number_two">two</string>
+    <string name="number_three">three</string>
+    <string name="number_four">four</string>
+    <string name="number_five">five</string>
+    <string name="number_six">six</string>
+    <string name="number_seven">seven</string>
+    <string name="number_eight">eight</string>
+    <string name="number_nine">nine</string>
+    <string name="number_ten">ten</string>
+</resources>

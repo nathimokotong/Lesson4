@@ -1,5 +1,6 @@
 package com.example.android.lesson4;
 
+import android.content.SharedPreferences;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,13 +16,36 @@ public class Family extends AppCompatActivity implements TextToSpeech.OnInitList
 
     ImageView i1 ,i2 ,i3 ,i4 ,i5 ,i6 ,i7 ,i8 ,i9 ,i10;
     String[] family;
-TextToSpeech tts;
+    TextToSpeech tts;
+    String[] numbrs , language;
+    SharedPreferences preferences;
+    SharedPreferences.Editor editor;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_numbers);
 
+        //  i1.setImageDrawable(getResources().getDrawable(R.drawable.one));
+
+
+        preferences = getSharedPreferences("score",0);
+
+        String lang = preferences.getString("lang","za");
+
+        language = new String[]{"aunt","brother","cousin","younger sister",
+                "father","grandfather" ,"grandmother","mother","sister","uncle"};
+
+        if(lang == "st")
+        {
+            language = new String[]{"tee","pedi","tharo","nne","hlano","tshela","supa","sewai","senyane","lesome"};
+        }
+        if(lang == "za")
+        {
+            language = new String[]{"aunt","brother","cousin","younger sister",
+                    "father","grandfather" ,"grandmother","mother","sister","uncle"};
+        }
         family = new String[]{"aunt","brother","cousin","younger sister",
                 "father","grandfather" ,"grandmother","mother","sister","uncle"};
 
@@ -39,7 +63,7 @@ TextToSpeech tts;
         words.add(new Word("uncle","malome",R.drawable.family_older_brother));
 
 
-        WordAdapter itemsAdapter = new WordAdapter(this,words);
+        WordAdapter itemsAdapter = new WordAdapter(this,words,R.color.colorFamily);
         ListView listView = (ListView)findViewById(R.id.numberslist);
         listView.setAdapter(itemsAdapter);
 

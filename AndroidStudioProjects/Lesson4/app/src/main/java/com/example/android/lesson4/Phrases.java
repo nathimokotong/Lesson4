@@ -69,7 +69,7 @@ public class Phrases extends AppCompatActivity implements TextToSpeech.OnInitLis
         words.add(new Word("Let me go!","Ntumelle ke tsamaye!"));
 
 
-        WordAdapter itemsAdapter = new WordAdapter(this,words);
+        WordAdapter itemsAdapter = new WordAdapter(this,words,R.color.colorPhrases);
         ListView listView = (ListView)findViewById(R.id.numberslist);
         listView.setAdapter(itemsAdapter);
 

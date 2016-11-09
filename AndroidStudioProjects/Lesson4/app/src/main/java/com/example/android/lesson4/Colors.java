@@ -40,7 +40,7 @@ public class Colors extends AppCompatActivity implements TextToSpeech.OnInitList
         words.add(new Word("green","tala",R.drawable.color_green));
 
 
-        WordAdapter itemsAdapter = new WordAdapter(this,words);
+        WordAdapter itemsAdapter = new WordAdapter(this,words,R.color.colorColour);
         ListView listView = (ListView)findViewById(R.id.numberslist);
         listView.setAdapter(itemsAdapter);
 

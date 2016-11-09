@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="category_colors">Colours</string>
+    <string name="category_family">Family</string>
+    <string name="category_numbers">Numbers</string>
+    <string name="category_phrase">Phrases</string>
+    <string name="number_one">tee</string>
+    <string name="number_two">pedi</string>
+    <string name="number_three">tharo</string>
+    <string name="number_ten">lesome</string>
+    <string name="number_six">tshela</string>
+    <string name="number_seven">supa</string>
+    <string name="number_nine">senyane</string>
+    <string name="number_four">nne</string>
+    <string name="number_five">hlano</string>
+    <string name="number_eight">sewai</string>
+</resources>

@@ -7,18 +7,22 @@ import android.widget.ImageView;
  */
 public class Word {
 
+    private static final int NO_IMAGE = -1;
     private String mDefault;
     private String mMiwok;
     private int imageResID = NO_IMAGE;
-    private static final int NO_IMAGE = -1;
 
+
+    //we can have two constractors
+
+    //_____________________first
     public Word(String d , String m)
     {
         mDefault = d;
         mMiwok = m;
 
     }
-
+    //_____________________secound
     public Word(String d , String m, int i)
     {
         mDefault = d;
@@ -38,13 +42,9 @@ public class Word {
 
     public int getImageResource() { return imageResID;}
 
-    public boolean hasimage(){
-        boolean t = false;
-        if (imageResID > NO_IMAGE) {
-            t = true;
-        }
-
-        return t;
+    public boolean hasimage()
+    {
+      return imageResID != NO_IMAGE;
     }
 }
 

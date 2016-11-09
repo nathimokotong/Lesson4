@@ -1,7 +1,7 @@
 <application>
   <component name="DimensionService">
     <location key="FileChooserDialogImpl.0.0.1920.1080" x="673" y="219" />
-    <location key="WELCOME_SCREEN.0.0.1920.1080" x="893" y="230" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="230" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="667" y="351" />
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1920.1080" x="690" y="280" />
     <location key="deploy.picker.dialog.0.0.1920.1080" x="874" y="239" />
@@ -14,15 +14,18 @@
     <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1920.1080" x="210" y="287" />
     <location key="AndroidCreateResourceDirectoryDialog.0.0.1920.1080" x="540" y="288" />
     <location key="#Inspections.0.0.1920.1080" x="112" y="207" />
+    <location key="git4idea.merge.GitPullDialog.0.0.1920.1080" x="635" y="320" />
+    <location key="refactoring.ChangeSignatureDialog.0.0.1920.1080" x="701" y="164" />
+    <location key="RollbackChangesDialog.0.0.1920.1080" x="739" y="248" />
     <size key="javadoc.popup.0.0.1920.1080" width="446" height="165" />
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1876" height="221" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1876" height="221" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1876" height="221" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1876" height="221" />
-    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1876" height="221" />
-    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1876" height="221" />
-    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1876" height="221" />
-    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1876" height="221" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="914" height="250" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="914" height="250" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="914" height="250" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="914" height="250" />
     <size key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" width="644" height="582" />
   </component>
 </application>

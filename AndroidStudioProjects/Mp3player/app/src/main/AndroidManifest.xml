@@ -6,6 +6,11 @@
         android:maxSdkVersion="21"
         />
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
 
     <application
         android:allowBackup="true"

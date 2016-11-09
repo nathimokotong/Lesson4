@@ -1,9 +1,12 @@
 package com.example.android.lesson4;
 
 import android.app.ActionBar;
+import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.speech.tts.TextToSpeech;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.AdapterView;
@@ -42,11 +45,11 @@ import android.widget.Toast;
 
 public class Numbers extends AppCompatActivity implements TextToSpeech.OnInitListener {
 
-    TextToSpeech speek;
     TextToSpeech tts;
     String[] numbrs;
-    ImageView[] imageViews;
-    ImageView i1 ,i2 ,i3 ,i4 ,i5 ,i6 ,i7 ,i8 ,i9 ,i10;
+    String[] language;
+    SharedPreferences preferences;
+    SharedPreferences.Editor editor;
 
 
     @Override
@@ -57,27 +60,41 @@ public class Numbers extends AppCompatActivity implements TextToSpeech.OnInitLis
       //  i1.setImageDrawable(getResources().getDrawable(R.drawable.one));
 
 
+      //  preferences = getSharedPreferences("score",0);
+        preferences = getSharedPreferences("language",0);
+        String lang = preferences.getString("lang","none");
 
-        ArrayList<Word> words = new ArrayList<Word>();
+        language = new String[]{"one","two","three","four","five","six","seven","eight","nine","ten"};
+
+        if(lang == "st")
+        {
+            language = new String[]{"tee","pedi","tharo","nne","hlano","tshela","supa","sewai","senyane","lesome"};
+        }
+        if(lang == "za")
+        {
+            language = new String[]{"one","two","three","four","five","six","seven","eight","nine","ten"};
+        }
+
+                ArrayList<Word> words = new ArrayList<Word>();
 
         numbrs = new String[]{"one","two","three","four","five","six","seven","eight","nine","ten"};
 
-        words.add(new Word("one","tee",R.drawable.number_one));
-        words.add(new Word("two","pedi",R.drawable.number_two));
-        words.add(new Word("three","tharo",R.drawable.number_three));
-        words.add(new Word("four","nne",R.drawable.number_four));
-        words.add(new Word("five","hlano",R.drawable.number_five));
-        words.add(new Word("six","tshela",R.drawable.number_six));
-        words.add(new Word("seven","supa",R.drawable.number_seven));
-        words.add(new Word("eight","sewai",R.drawable.number_eight));
-        words.add(new Word("nine","senyane",R.drawable.number_nine));
-        words.add(new Word("ten","lesome",R.drawable.number_ten));
+        words.add(new Word("lutti",language[0],R.drawable.number_one));
+        words.add(new Word("otiiko",language[1],R.drawable.number_two));
+        words.add(new Word("tolookosu",language[2],R.drawable.number_three));
+        words.add(new Word("oyyisa",language[3],R.drawable.number_four));
+        words.add(new Word("massokka",language[4],R.drawable.number_five));
+        words.add(new Word("temmokka",language[5],R.drawable.number_six));
+        words.add(new Word("kenekaku",language[6],R.drawable.number_seven));
+        words.add(new Word("kawinta",language[7],R.drawable.number_eight));
+        words.add(new Word("wo’e",language[8],R.drawable.number_nine));
+        words.add(new Word("na’aacha",language[9],R.drawable.number_ten));
 
 
         tts = new TextToSpeech(this, (TextToSpeech.OnInitListener) this);
 
 
-    WordAdapter itemsAdapter = new WordAdapter(this,words);
+    WordAdapter itemsAdapter = new WordAdapter(this,words,R.color.colorNumbers);
         ListView listView = (ListView)findViewById(R.id.numberslist);
         listView.setAdapter(itemsAdapter);
 
@@ -90,13 +107,26 @@ public class Numbers extends AppCompatActivity implements TextToSpeech.OnInitLis
                 String num = numbrs[i];
                 tts.setLanguage(Locale.US);
                 tts.speak(num, TextToSpeech.QUEUE_ADD, null);
+
             }
         });
 
     }
 
+
     @Override
     public void onInit(int i) {
 
+    }
+
+    @Override
+    protected void onPause() {
+        if(tts != null)
+        {
+            tts.stop();
+            //shutdown not to buffer
+            tts.shutdown();
+        }
+        super.onPause();
     }
 }

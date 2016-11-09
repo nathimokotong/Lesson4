@@ -53,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
         MenuInflater inflater = new MenuInflater(this);
        inflater.inflate(R.menu.menu_layout,menu);
 
-
         return true;
     }
 
